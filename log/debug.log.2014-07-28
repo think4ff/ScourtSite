@@ -1,0 +1,1469 @@
+[12:40:02][INFO ](MainUX.java:main:316)-start.. : 대법원사이트 자동 조회 시스템 (v1.5 2014-07-18)
+[12:40:02][INFO ](MainUX.java:run:340)-Metal
+[12:40:02][INFO ](MainUX.java:run:340)-Nimbus
+[12:40:02][INFO ](MainUX.java:run:345)-set Nimbus LookAndFeel
+[12:40:02][INFO ](MainUX.java:run:356)-new MyUiClass()
+[12:43:31][INFO ](InputCSV.java:ReadFile:29)-called
+[12:43:38][INFO ](HttpIO.java:run:291)-start
+[12:43:38][INFO ](HttpIO.java:httpInit:74)-http init start ================= 
+[12:43:38][INFO ](OutputExcel.java:open:38)-called
+[12:43:38][INFO ](HttpIO.java:run:308)-./output/사건검색결과_0728_124338.xls 생성
+[12:43:38][INFO ](HttpIO.java:httpExcuteSagun:174)-윤광,000210,2011,하면,whp.SFWHP01s01Cmd,whp.SFWHP02s01Cmd,012863
+[12:43:38][INFO ](HttpIO.java:httpExcuteSagun:217)-Before httpclient.execute() 
+[12:43:39][INFO ](HttpIO.java:httpExcuteSagun:221)-after httpclient.execute() 
+[12:43:39][INFO ](HtmlParserSagun.java:parseTab1:30)-called
+[12:43:39][INFO ](HtmlParser.java:cut_value_in_nextBlock:48)-[서울중앙지방법원 2011하면12863</h5>
+    </div>
+    <ul>
+        <li class="paddingtop15">
+            <h4 class="paddingBottom3">기본내용 &nbsp;
+
+            <a href="#" onclick="javascript:goLocation('서울중앙지법');"><img src="/img/comm/btn_location.gif" alt="청사보기(새창)" /></a>
+
+            </h4>
+            <table class="list_01" summary="기본내용">
+            <caption>기본내용</caption>
+            <colgroup>
+            <col class="head" />
+            <col class="cell01" />
+            <col class="head" />
+            <col class="cell01" />
+            </colgroup>
+            <tr>
+                <th scope="col" class="head">사건번호</th>
+                <td class="cell01">&nbsp;2011하면12863 ],start_pos:8108
+[12:43:39][INFO ](HtmlParser.java:cut_value_in_nextBlock:48)-[제9파산단독(가)],start_pos:8612
+[12:43:39][INFO ](HtmlParser.java:cut_value_in_nextBlock:48)-[2011.12.05],start_pos:8838
+[12:43:39][INFO ](HtmlParser.java:cut_value_in_nextBlock:48)-[2014.02.13 인용],start_pos:8954
+[12:43:39][INFO ](HttpIO.java:httpExcuteSagun:174)-윤광,000210,2011,하면,whp.SFWHP01s01Cmd,whp.SFWHP02s01Cmd,012863
+[12:43:39][INFO ](HttpIO.java:httpExcuteSagun:217)-Before httpclient.execute() 
+[12:43:39][INFO ](HttpIO.java:httpExcuteSagun:221)-after httpclient.execute() 
+[12:43:39][INFO ](HtmlParserSagun.java:parseTab2:122)-called
+[12:43:39][INFO ](MainUX.java:updateUx:306)-info : 1/19,value : 5
+[12:43:39][INFO ](OutputExcel.java:write:69)-called
+[12:43:39][INFO ](OutputExcel.java:addDataToSheet:305)-Excel/전체/2011하면012863-01,제9파산단독(가),20111205,,,,,,20140213 인용,,
+[12:43:39][INFO ](OutputExcel.java:addDataToSheet:305)-Excel/면책/2011하면012863-01,제9파산단독(가),20111205,,,,,,20140213 인용,,
+[12:43:39][INFO ](HttpIO.java:run:356)-조회성공 : 2011하면012863-01,제9파산단독(가),20111205,,,,,,20140213 인용,,
+[12:43:39][INFO ](HttpIO.java:httpExcuteSagun:174)-최용,000250,2012,하면,whp.SFWHP01s01Cmd,whp.SFWHP02s01Cmd,007333
+[12:43:39][INFO ](HttpIO.java:httpExcuteSagun:217)-Before httpclient.execute() 
+[12:43:40][INFO ](HttpIO.java:httpExcuteSagun:221)-after httpclient.execute() 
+[12:43:40][INFO ](HtmlParserSagun.java:parseTab1:30)-called
+[12:43:40][INFO ](HtmlParser.java:cut_value_in_nextBlock:48)-[수원지방법원 2012하면7333</h5>
+    </div>
+    <ul>
+        <li class="paddingtop15">
+            <h4 class="paddingBottom3">기본내용 &nbsp;
+
+            <a href="#" onclick="javascript:goLocation('수원지법');"><img src="/img/comm/btn_location.gif" alt="청사보기(새창)" /></a>
+
+            </h4>
+            <table class="list_01" summary="기본내용">
+            <caption>기본내용</caption>
+            <colgroup>
+            <col class="head" />
+            <col class="cell01" />
+            <col class="head" />
+            <col class="cell01" />
+            </colgroup>
+            <tr>
+                <th scope="col" class="head">사건번호</th>
+                <td class="cell01">&nbsp;2012하면7333 ],start_pos:8102
+[12:43:40][INFO ](HtmlParser.java:cut_value_in_nextBlock:48)-[파산5단독(가) (전화:031-210-1365)],start_pos:8636
+[12:43:40][INFO ](HtmlParser.java:cut_value_in_nextBlock:48)-[2012.09.28],start_pos:8862
+[12:43:40][INFO ](HtmlParser.java:cut_value_in_nextBlock:48)-[2014.02.24 일부인용],start_pos:8980
+[12:43:40][INFO ](HttpIO.java:httpExcuteSagun:174)-최용,000250,2012,하면,whp.SFWHP01s01Cmd,whp.SFWHP02s01Cmd,007333
+[12:43:40][INFO ](HttpIO.java:httpExcuteSagun:217)-Before httpclient.execute() 
+[12:43:40][INFO ](HttpIO.java:httpExcuteSagun:221)-after httpclient.execute() 
+[12:43:40][INFO ](HtmlParserSagun.java:parseTab2:122)-called
+[12:43:40][INFO ](MainUX.java:updateUx:306)-info : 2/19,value : 10
+[12:43:40][INFO ](OutputExcel.java:write:69)-called
+[12:43:40][INFO ](OutputExcel.java:addDataToSheet:305)-Excel/전체/2012하면007333-04,파산5단독(가) (전화:031-210-1365),20120928,,,,,,20140224 일부인용,,
+[12:43:40][INFO ](OutputExcel.java:addDataToSheet:305)-Excel/면책/2012하면007333-04,파산5단독(가) (전화:031-210-1365),20120928,,,,,,20140224 일부인용,,
+[12:43:40][INFO ](HttpIO.java:run:356)-조회성공 : 2012하면007333-04,파산5단독(가) (전화:031-210-1365),20120928,,,,,,20140224 일부인용,,
+[12:43:40][INFO ](HttpIO.java:httpExcuteSagun:174)-이두,000420,2005,하단,whp.SFWHP01s01Cmd,whp.SFWHP02s01Cmd,000354
+[12:43:40][INFO ](HttpIO.java:httpExcuteSagun:217)-Before httpclient.execute() 
+[12:43:40][INFO ](HttpIO.java:httpExcuteSagun:221)-after httpclient.execute() 
+[12:43:40][INFO ](HtmlParserSagun.java:parseTab1:30)-called
+[12:43:40][INFO ](HtmlParser.java:cut_value_in_nextBlock:48)-[창원지방법원 2005하단354</h5>
+    </div>
+    <ul>
+        <li class="paddingtop15">
+            <h4 class="paddingBottom3">기본내용 &nbsp;
+
+            <a href="#" onclick="javascript:goLocation('창원지법');"><img src="/img/comm/btn_location.gif" alt="청사보기(새창)" /></a>
+
+            </h4>
+            <table class="list_01" summary="기본내용">
+            <caption>기본내용</caption>
+            <colgroup>
+            <col class="head" />
+            <col class="cell01" />
+            <col class="head" />
+            <col class="cell01" />
+            </colgroup>
+            <tr>
+                <th scope="col" class="head">사건번호</th>
+                <td class="cell01">&nbsp;2005하단354 ],start_pos:8100
+[12:43:40][INFO ](HtmlParser.java:cut_value_in_nextBlock:48)-[제1회생단독],start_pos:8601
+[12:43:40][INFO ](HtmlParser.java:cut_value_in_nextBlock:48)-[2005.08.16],start_pos:8837
+[12:43:40][INFO ](HtmlParser.java:cut_value_in_nextBlock:48)-[2006.07.18 파산선고],start_pos:8955
+[12:43:40][INFO ](HttpIO.java:httpExcuteSagun:174)-이두,000420,2005,하단,whp.SFWHP01s01Cmd,whp.SFWHP02s01Cmd,000354
+[12:43:40][INFO ](HttpIO.java:httpExcuteSagun:217)-Before httpclient.execute() 
+[12:43:40][INFO ](HttpIO.java:httpExcuteSagun:221)-after httpclient.execute() 
+[12:43:40][INFO ](HtmlParserSagun.java:parseTab2:122)-called
+[12:43:40][INFO ](MainUX.java:updateUx:306)-info : 3/19,value : 15
+[12:43:40][INFO ](OutputExcel.java:write:69)-called
+[12:43:40][INFO ](OutputExcel.java:addDataToSheet:305)-Excel/전체/2005하단000354-11,제1회생단독,20050816,,,,,,20060718 파산선고,,
+[12:43:40][INFO ](OutputExcel.java:addDataToSheet:305)-Excel/파산선고/2005하단000354-11,제1회생단독,20050816,,,,,,20060718 파산선고,,
+[12:43:40][INFO ](HttpIO.java:run:356)-조회성공 : 2005하단000354-11,제1회생단독,20050816,,,,,,20060718 파산선고,,
+[12:43:40][INFO ](HttpIO.java:httpExcuteSagun:174)-박창,000210,2013,하면,whp.SFWHP01s01Cmd,whp.SFWHP02s01Cmd,011693
+[12:43:40][INFO ](HttpIO.java:httpExcuteSagun:217)-Before httpclient.execute() 
+[12:43:41][INFO ](HttpIO.java:httpExcuteSagun:221)-after httpclient.execute() 
+[12:43:41][INFO ](HtmlParserSagun.java:parseTab1:30)-called
+[12:43:41][INFO ](HtmlParser.java:cut_value_in_nextBlock:48)-[서울중앙지방법원 2013하면11693</h5>
+    </div>
+    <ul>
+        <li class="paddingtop15">
+            <h4 class="paddingBottom3">기본내용 &nbsp;
+
+            <a href="#" onclick="javascript:goLocation('서울중앙지법');"><img src="/img/comm/btn_location.gif" alt="청사보기(새창)" /></a>
+
+            </h4>
+            <table class="list_01" summary="기본내용">
+            <caption>기본내용</caption>
+            <colgroup>
+            <col class="head" />
+            <col class="cell01" />
+            <col class="head" />
+            <col class="cell01" />
+            </colgroup>
+            <tr>
+                <th scope="col" class="head">사건번호</th>
+                <td class="cell01">&nbsp;2013하면11693 ],start_pos:8108
+[12:43:41][INFO ](HtmlParser.java:cut_value_in_nextBlock:48)-[제6파산단독(가)],start_pos:8615
+[12:43:41][INFO ](HtmlParser.java:cut_value_in_nextBlock:48)-[2013.11.21],start_pos:8841
+[12:43:41][INFO ](HtmlParser.java:cut_value_in_nextBlock:48)-[2014.03.06 신청취하],start_pos:8959
+[12:43:41][INFO ](HttpIO.java:httpExcuteSagun:174)-박창,000210,2013,하면,whp.SFWHP01s01Cmd,whp.SFWHP02s01Cmd,011693
+[12:43:41][INFO ](HttpIO.java:httpExcuteSagun:217)-Before httpclient.execute() 
+[12:43:41][INFO ](HttpIO.java:httpExcuteSagun:221)-after httpclient.execute() 
+[12:43:41][INFO ](HtmlParserSagun.java:parseTab2:122)-called
+[12:43:41][INFO ](MainUX.java:updateUx:306)-info : 4/19,value : 21
+[12:43:41][INFO ](OutputExcel.java:write:69)-called
+[12:43:41][INFO ](OutputExcel.java:addDataToSheet:305)-Excel/전체/2013하면011693-01,제6파산단독(가),20131121,,,,,,20140306 신청취하,,
+[12:43:41][INFO ](OutputExcel.java:addDataToSheet:305)-Excel/취하/2013하면011693-01,제6파산단독(가),20131121,,,,,,20140306 신청취하,,
+[12:43:41][INFO ](HttpIO.java:run:356)-조회성공 : 2013하면011693-01,제6파산단독(가),20131121,,,,,,20140306 신청취하,,
+[12:43:41][INFO ](HttpIO.java:httpExcuteSagun:174)-박병,000510,2012,하면,whp.SFWHP01s01Cmd,whp.SFWHP02s01Cmd,001493
+[12:43:41][INFO ](HttpIO.java:httpExcuteSagun:217)-Before httpclient.execute() 
+[12:43:41][INFO ](HttpIO.java:httpExcuteSagun:221)-after httpclient.execute() 
+[12:43:41][INFO ](HtmlParserSagun.java:parseTab1:30)-called
+[12:43:41][INFO ](HtmlParser.java:cut_value_in_nextBlock:48)-[광주지방법원 2012하면1493</h5>
+    </div>
+    <ul>
+        <li class="paddingtop15">
+            <h4 class="paddingBottom3">기본내용 &nbsp;
+
+            <a href="#" onclick="javascript:goLocation('광주지법');"><img src="/img/comm/btn_location.gif" alt="청사보기(새창)" /></a>
+
+            </h4>
+            <table class="list_01" summary="기본내용">
+            <caption>기본내용</caption>
+            <colgroup>
+            <col class="head" />
+            <col class="cell01" />
+            <col class="head" />
+            <col class="cell01" />
+            </colgroup>
+            <tr>
+                <th scope="col" class="head">사건번호</th>
+                <td class="cell01">&nbsp;2012하면1493 ],start_pos:8102
+[12:43:41][INFO ](HtmlParser.java:cut_value_in_nextBlock:48)-[제4파산단독],start_pos:8608
+[12:43:41][INFO ](HtmlParser.java:cut_value_in_nextBlock:48)-[2012.05.10],start_pos:8834
+[12:43:41][INFO ](HtmlParser.java:cut_value_in_nextBlock:48)-[2014.02.20 취하],start_pos:8950
+[12:43:41][INFO ](HttpIO.java:httpExcuteSagun:174)-박병,000510,2012,하면,whp.SFWHP01s01Cmd,whp.SFWHP02s01Cmd,001493
+[12:43:41][INFO ](HttpIO.java:httpExcuteSagun:217)-Before httpclient.execute() 
+[12:43:41][INFO ](HttpIO.java:httpExcuteSagun:221)-after httpclient.execute() 
+[12:43:41][INFO ](HtmlParserSagun.java:parseTab2:122)-called
+[12:43:41][INFO ](MainUX.java:updateUx:306)-info : 5/19,value : 26
+[12:43:41][INFO ](OutputExcel.java:write:69)-called
+[12:43:41][INFO ](OutputExcel.java:addDataToSheet:305)-Excel/전체/2012하면001493-12,제4파산단독,20120510,,,,,,20140220 취하,,
+[12:43:41][INFO ](OutputExcel.java:addDataToSheet:305)-Excel/취하/2012하면001493-12,제4파산단독,20120510,,,,,,20140220 취하,,
+[12:43:41][INFO ](HttpIO.java:run:356)-조회성공 : 2012하면001493-12,제4파산단독,20120510,,,,,,20140220 취하,,
+[12:43:41][INFO ](HttpIO.java:httpExcuteSagun:174)-이천,000210,2005,하단,whp.SFWHP01s01Cmd,whp.SFWHP02s01Cmd,005999
+[12:43:41][INFO ](HttpIO.java:httpExcuteSagun:217)-Before httpclient.execute() 
+[12:43:42][INFO ](HttpIO.java:httpExcuteSagun:221)-after httpclient.execute() 
+[12:43:42][INFO ](HtmlParserSagun.java:parseTab1:30)-called
+[12:43:42][INFO ](HtmlParser.java:cut_value_in_nextBlock:48)-[서울중앙지방법원 2005하단5999</h5>
+    </div>
+    <ul>
+        <li class="paddingtop15">
+            <h4 class="paddingBottom3">기본내용 &nbsp;
+
+            <a href="#" onclick="javascript:goLocation('서울중앙지법');"><img src="/img/comm/btn_location.gif" alt="청사보기(새창)" /></a>
+
+            </h4>
+            <table class="list_01" summary="기본내용">
+            <caption>기본내용</caption>
+            <colgroup>
+            <col class="head" />
+            <col class="cell01" />
+            <col class="head" />
+            <col class="cell01" />
+            </colgroup>
+            <tr>
+                <th scope="col" class="head">사건번호</th>
+                <td class="cell01">&nbsp;2005하단5999 ],start_pos:8106
+[12:43:42][INFO ](HtmlParser.java:cut_value_in_nextBlock:48)-[제7파산단독 (전화:530-1490)],start_pos:8621
+[12:43:42][INFO ](HtmlParser.java:cut_value_in_nextBlock:48)-[2005.06.24],start_pos:8857
+[12:43:42][INFO ](HtmlParser.java:cut_value_in_nextBlock:48)-[2005.09.09 이송],start_pos:8973
+[12:43:42][INFO ](HttpIO.java:httpExcuteSagun:174)-이천,000210,2005,하단,whp.SFWHP01s01Cmd,whp.SFWHP02s01Cmd,005999
+[12:43:42][INFO ](HttpIO.java:httpExcuteSagun:217)-Before httpclient.execute() 
+[12:43:42][INFO ](HttpIO.java:httpExcuteSagun:221)-after httpclient.execute() 
+[12:43:42][INFO ](HtmlParserSagun.java:parseTab2:122)-called
+[12:43:42][INFO ](MainUX.java:updateUx:306)-info : 6/19,value : 31
+[12:43:42][INFO ](OutputExcel.java:write:69)-called
+[12:43:42][INFO ](OutputExcel.java:addDataToSheet:305)-Excel/전체/2005하단005999-01,제7파산단독 (전화:530-1490),20050624,,,,,,20050909 이송,,
+[12:43:42][INFO ](OutputExcel.java:addDataToSheet:305)-Excel/이송/2005하단005999-01,제7파산단독 (전화:530-1490),20050624,,,,,,20050909 이송,,
+[12:43:42][INFO ](HttpIO.java:run:356)-조회성공 : 2005하단005999-01,제7파산단독 (전화:530-1490),20050624,,,,,,20050909 이송,,
+[12:43:42][INFO ](HttpIO.java:httpExcuteSagun:174)-비앤,000210,2013,하합,whp.SFWHP01s01Cmd,whp.SFWHP02s01Cmd,000120
+[12:43:42][INFO ](HttpIO.java:httpExcuteSagun:217)-Before httpclient.execute() 
+[12:43:42][INFO ](HttpIO.java:httpExcuteSagun:221)-after httpclient.execute() 
+[12:43:42][INFO ](HtmlParserSagun.java:parseTab1:30)-called
+[12:43:42][INFO ](HtmlParser.java:cut_value_in_nextBlock:48)-[서울중앙지방법원 2013하합120</h5>
+    </div>
+    <ul>
+        <li class="paddingtop15">
+            <h4 class="paddingBottom3">기본내용 &nbsp;
+
+            <a href="#" onclick="javascript:goLocation('서울중앙지법');"><img src="/img/comm/btn_location.gif" alt="청사보기(새창)" /></a>
+
+            </h4>
+            <table class="list_01" summary="기본내용">
+            <caption>기본내용</caption>
+            <colgroup>
+            <col class="head" />
+            <col class="cell01" />
+            <col class="head" />
+            <col class="cell01" />
+            </colgroup>
+            <tr>
+                <th scope="col" class="head">사건번호</th>
+                <td class="cell01">&nbsp;2013하합120 ],start_pos:8104
+[12:43:42][INFO ](HtmlParser.java:cut_value_in_nextBlock:48)-[제12파산부(다)],start_pos:8605
+[12:43:42][INFO ](HtmlParser.java:cut_value_in_nextBlock:48)-[2013.07.17],start_pos:8831
+[12:43:42][INFO ](HtmlParser.java:cut_value_in_nextBlock:48)-[2013.12.19 폐지],start_pos:8947
+[12:43:42][INFO ](HttpIO.java:httpExcuteSagun:174)-비앤,000210,2013,하합,whp.SFWHP01s01Cmd,whp.SFWHP02s01Cmd,000120
+[12:43:42][INFO ](HttpIO.java:httpExcuteSagun:217)-Before httpclient.execute() 
+[12:43:42][INFO ](HttpIO.java:httpExcuteSagun:221)-after httpclient.execute() 
+[12:43:42][INFO ](HtmlParserSagun.java:parseTab2:122)-called
+[12:43:42][INFO ](MainUX.java:updateUx:306)-info : 7/19,value : 36
+[12:43:42][INFO ](OutputExcel.java:write:69)-called
+[12:43:42][INFO ](OutputExcel.java:addDataToSheet:305)-Excel/전체/2013하합000120-01,제12파산부(다),20130717,,,,,,20131219 폐지,,
+[12:43:42][INFO ](OutputExcel.java:addDataToSheet:305)-Excel/폐지/2013하합000120-01,제12파산부(다),20130717,,,,,,20131219 폐지,,
+[12:43:42][INFO ](HttpIO.java:run:356)-조회성공 : 2013하합000120-01,제12파산부(다),20130717,,,,,,20131219 폐지,,
+[12:43:42][INFO ](HttpIO.java:httpExcuteSagun:174)-윤홍,000214,2012,하면,whp.SFWHP01s01Cmd,whp.SFWHP02s01Cmd,000924
+[12:43:42][INFO ](HttpIO.java:httpExcuteSagun:217)-Before httpclient.execute() 
+[12:43:42][INFO ](HttpIO.java:httpExcuteSagun:221)-after httpclient.execute() 
+[12:43:42][INFO ](HtmlParserSagun.java:parseTab1:30)-called
+[12:43:42][INFO ](HtmlParser.java:cut_value_in_nextBlock:48)-[의정부지방법원 2012하면924</h5>
+    </div>
+    <ul>
+        <li class="paddingtop15">
+            <h4 class="paddingBottom3">기본내용 &nbsp;
+
+            <a href="#" onclick="javascript:goLocation('의정부지법');"><img src="/img/comm/btn_location.gif" alt="청사보기(새창)" /></a>
+
+            </h4>
+            <table class="list_01" summary="기본내용">
+            <caption>기본내용</caption>
+            <colgroup>
+            <col class="head" />
+            <col class="cell01" />
+            <col class="head" />
+            <col class="cell01" />
+            </colgroup>
+            <tr>
+                <th scope="col" class="head">사건번호</th>
+                <td class="cell01">&nbsp;2012하면924 ],start_pos:8102
+[12:43:42][INFO ](HtmlParser.java:cut_value_in_nextBlock:48)-[제1파산단독 (전화:031-828-0316)],start_pos:8621
+[12:43:42][INFO ](HtmlParser.java:cut_value_in_nextBlock:48)-[2012.03.12],start_pos:8847
+[12:43:42][INFO ](HtmlParser.java:cut_value_in_nextBlock:48)-[2014.01.29 기각],start_pos:8963
+[12:43:42][INFO ](HttpIO.java:httpExcuteSagun:174)-윤홍,000214,2012,하면,whp.SFWHP01s01Cmd,whp.SFWHP02s01Cmd,000924
+[12:43:42][INFO ](HttpIO.java:httpExcuteSagun:217)-Before httpclient.execute() 
+[12:43:43][INFO ](HttpIO.java:httpExcuteSagun:221)-after httpclient.execute() 
+[12:43:43][INFO ](HtmlParserSagun.java:parseTab2:122)-called
+[12:43:43][INFO ](MainUX.java:updateUx:306)-info : 8/19,value : 42
+[12:43:43][INFO ](OutputExcel.java:write:69)-called
+[12:43:43][INFO ](OutputExcel.java:addDataToSheet:305)-Excel/전체/2012하면000924-02,제1파산단독 (전화:031-828-0316),20120312,,,,,,20140129 기각,,
+[12:43:43][INFO ](OutputExcel.java:addDataToSheet:305)-Excel/기각/2012하면000924-02,제1파산단독 (전화:031-828-0316),20120312,,,,,,20140129 기각,,
+[12:43:43][INFO ](HttpIO.java:run:356)-조회성공 : 2012하면000924-02,제1파산단독 (전화:031-828-0316),20120312,,,,,,20140129 기각,,
+[12:43:43][INFO ](HttpIO.java:httpExcuteSagun:174)-신중,000280,2013,하면,whp.SFWHP01s01Cmd,whp.SFWHP02s01Cmd,002328
+[12:43:43][INFO ](HttpIO.java:httpExcuteSagun:217)-Before httpclient.execute() 
+[12:43:43][INFO ](HttpIO.java:httpExcuteSagun:221)-after httpclient.execute() 
+[12:43:43][INFO ](HtmlParserSagun.java:parseTab1:30)-called
+[12:43:43][INFO ](HtmlParser.java:cut_value_in_nextBlock:48)-[대전지방법원 2013하면2328</h5>
+    </div>
+    <ul>
+        <li class="paddingtop15">
+            <h4 class="paddingBottom3">기본내용 &nbsp;
+
+            <a href="#" onclick="javascript:goLocation('대전지법');"><img src="/img/comm/btn_location.gif" alt="청사보기(새창)" /></a>
+
+            </h4>
+            <table class="list_01" summary="기본내용">
+            <caption>기본내용</caption>
+            <colgroup>
+            <col class="head" />
+            <col class="cell01" />
+            <col class="head" />
+            <col class="cell01" />
+            </colgroup>
+            <tr>
+                <th scope="col" class="head">사건번호</th>
+                <td class="cell01">&nbsp;2013하면2328 ],start_pos:8102
+[12:43:43][INFO ](HtmlParser.java:cut_value_in_nextBlock:48)-[회생6단독 파산 (전화:042-470-1945)],start_pos:8625
+[12:43:43][INFO ](HtmlParser.java:cut_value_in_nextBlock:48)-[2013.10.21],start_pos:8851
+[12:43:43][INFO ](HtmlParser.java:cut_value_in_nextBlock:48)-[2014.02.20 불허가],start_pos:8968
+[12:43:43][INFO ](HttpIO.java:httpExcuteSagun:174)-신중,000280,2013,하면,whp.SFWHP01s01Cmd,whp.SFWHP02s01Cmd,002328
+[12:43:43][INFO ](HttpIO.java:httpExcuteSagun:217)-Before httpclient.execute() 
+[12:43:43][INFO ](HttpIO.java:httpExcuteSagun:221)-after httpclient.execute() 
+[12:43:43][INFO ](HtmlParserSagun.java:parseTab2:122)-called
+[12:43:43][INFO ](MainUX.java:updateUx:306)-info : 9/19,value : 47
+[12:43:43][INFO ](OutputExcel.java:write:69)-called
+[12:43:43][INFO ](OutputExcel.java:addDataToSheet:305)-Excel/전체/2013하면002328-06,회생6단독 파산 (전화:042-470-1945),20131021,,,,,,20140220 불허가,,
+[12:43:43][INFO ](OutputExcel.java:addDataToSheet:305)-Excel/불허가/2013하면002328-06,회생6단독 파산 (전화:042-470-1945),20131021,,,,,,20140220 불허가,,
+[12:43:43][INFO ](HttpIO.java:run:356)-조회성공 : 2013하면002328-06,회생6단독 파산 (전화:042-470-1945),20131021,,,,,,20140220 불허가,,
+[12:43:43][INFO ](HttpIO.java:httpExcuteSagun:174)-황주,000240,2013,개회,whp.SFWHP01s01Cmd,whp.SFWHP02s01Cmd,045918
+[12:43:43][INFO ](HttpIO.java:httpExcuteSagun:217)-Before httpclient.execute() 
+[12:43:43][INFO ](HttpIO.java:httpExcuteSagun:221)-after httpclient.execute() 
+[12:43:43][INFO ](HtmlParserSagun.java:parseTab1:30)-called
+[12:43:43][INFO ](HtmlParser.java:cut_value_in_nextBlock:48)-[인천지방법원 2013개회45918</h5>
+    </div>
+    <ul>
+        <li class="paddingtop15">
+            <h4 class="paddingBottom3">기본내용 &nbsp;
+
+            <a href="#" onclick="javascript:goLocation('인천지법');"><img src="/img/comm/btn_location.gif" alt="청사보기(새창)" /></a>
+
+            </h4>
+            <table class="list_01" summary="기본내용">
+            <caption>기본내용</caption>
+            <colgroup>
+            <col class="head" />
+            <col class="cell01" />
+            <col class="head" />
+            <col class="cell01" />
+            </colgroup>
+            <tr>
+                <th scope="col" class="head">사건번호</th>
+                <td class="cell01">&nbsp;2013개회45918 ],start_pos:8104
+[12:43:43][INFO ](HtmlParser.java:cut_value_in_nextBlock:48)-[제21외부회생 (전화:[21회생] 032-426-9379)],start_pos:8444
+[12:43:43][INFO ](HtmlParser.java:cut_value_in_nextBlock:48)-[2013.04.29],start_pos:8540
+[12:43:43][INFO ](HtmlParser.java:cut_value_in_nextBlock:48)-[황O선],start_pos:8659
+[12:43:43][INFO ](HtmlParser.java:cut_value_in_nextBlock:48)-[],start_pos:8860
+[12:43:43][INFO ](HtmlParser.java:cut_value_in_nextBlock:48)-[],start_pos:9063
+[12:43:43][INFO ](HtmlParser.java:cut_value_in_nextBlock:48)-[],start_pos:9151
+[12:43:43][INFO ](HtmlParser.java:cut_value_in_nextBlock:48)-[],start_pos:9264
+[12:43:43][INFO ](HtmlParser.java:cut_value_in_nextBlock:48)-[2013.11.29 기각],start_pos:9364
+[12:43:43][INFO ](HttpIO.java:httpExcuteSagun:174)-황주,000240,2013,개회,whp.SFWHP01s01Cmd,whp.SFWHP02s01Cmd,045918
+[12:43:43][INFO ](HttpIO.java:httpExcuteSagun:217)-Before httpclient.execute() 
+[12:43:44][INFO ](HttpIO.java:httpExcuteSagun:221)-after httpclient.execute() 
+[12:43:44][INFO ](HtmlParserSagun.java:parseTab2:122)-called
+[12:43:44][INFO ](MainUX.java:updateUx:306)-info : 10/19,value : 52
+[12:43:44][INFO ](OutputExcel.java:write:69)-called
+[12:43:44][INFO ](OutputExcel.java:addDataToSheet:305)-Excel/전체/2013개회045918-03,제21외부회생 (전화:[21회생] 032-426-9379),20130429,황O선,,,,,20131129 기각,,
+[12:43:44][INFO ](OutputExcel.java:addDataToSheet:305)-Excel/기각/2013개회045918-03,제21외부회생 (전화:[21회생] 032-426-9379),20130429,황O선,,,,,20131129 기각,,
+[12:43:44][INFO ](HttpIO.java:run:356)-조회성공 : 2013개회045918-03,제21외부회생 (전화:[21회생] 032-426-9379),20130429,황O선,,,,,20131129 기각,,
+[12:43:44][INFO ](HttpIO.java:httpExcuteSagun:174)-김영,000410,2013,개회,whp.SFWHP01s01Cmd,whp.SFWHP02s01Cmd,047492
+[12:43:44][INFO ](HttpIO.java:httpExcuteSagun:217)-Before httpclient.execute() 
+[12:43:44][INFO ](HttpIO.java:httpExcuteSagun:221)-after httpclient.execute() 
+[12:43:44][INFO ](HtmlParserSagun.java:parseTab1:30)-called
+[12:43:44][INFO ](HtmlParser.java:cut_value_in_nextBlock:48)-[부산지방법원 2013개회47492</h5>
+    </div>
+    <ul>
+        <li class="paddingtop15">
+            <h4 class="paddingBottom3">기본내용 &nbsp;
+
+            <a href="#" onclick="javascript:goLocation('부산지법');"><img src="/img/comm/btn_location.gif" alt="청사보기(새창)" /></a>
+
+            </h4>
+            <table class="list_01" summary="기본내용">
+            <caption>기본내용</caption>
+            <colgroup>
+            <col class="head" />
+            <col class="cell01" />
+            <col class="head" />
+            <col class="cell01" />
+            </colgroup>
+            <tr>
+                <th scope="col" class="head">사건번호</th>
+                <td class="cell01">&nbsp;2013개회47492 ],start_pos:8104
+[12:43:44][INFO ](HtmlParser.java:cut_value_in_nextBlock:48)-[개인회생61단독 (전화:[1회생] 051-590-1746)],start_pos:8444
+[12:43:44][INFO ](HtmlParser.java:cut_value_in_nextBlock:48)-[2013.11.18],start_pos:8540
+[12:43:44][INFO ](HtmlParser.java:cut_value_in_nextBlock:48)-[김O배],start_pos:8659
+[12:43:44][INFO ](HtmlParser.java:cut_value_in_nextBlock:48)-[],start_pos:8860
+[12:43:44][INFO ](HtmlParser.java:cut_value_in_nextBlock:48)-[],start_pos:9063
+[12:43:44][INFO ](HtmlParser.java:cut_value_in_nextBlock:48)-[],start_pos:9151
+[12:43:44][INFO ](HtmlParser.java:cut_value_in_nextBlock:48)-[],start_pos:9264
+[12:43:44][INFO ](HtmlParser.java:cut_value_in_nextBlock:48)-[2013.12.13 신청취하],start_pos:9366
+[12:43:44][INFO ](HttpIO.java:httpExcuteSagun:174)-김영,000410,2013,개회,whp.SFWHP01s01Cmd,whp.SFWHP02s01Cmd,047492
+[12:43:44][INFO ](HttpIO.java:httpExcuteSagun:217)-Before httpclient.execute() 
+[12:43:44][INFO ](HttpIO.java:httpExcuteSagun:221)-after httpclient.execute() 
+[12:43:44][INFO ](HtmlParserSagun.java:parseTab2:122)-called
+[12:43:44][INFO ](HtmlParser.java:cut_value_in_nextBlock:48)-[2013.11.22 도달],start_pos:13200
+[12:43:44][INFO ](MainUX.java:updateUx:306)-info : 11/19,value : 57
+[12:43:44][INFO ](OutputExcel.java:write:69)-called
+[12:43:44][INFO ](OutputExcel.java:addDataToSheet:305)-Excel/전체/2013개회047492-09,개인회생61단독 (전화:[1회생] 051-590-1746),20131118,김O배,,,,,20131213 신청취하,20131122 도달,
+[12:43:44][INFO ](OutputExcel.java:addDataToSheet:305)-Excel/취하/2013개회047492-09,개인회생61단독 (전화:[1회생] 051-590-1746),20131118,김O배,,,,,20131213 신청취하,20131122 도달,
+[12:43:44][INFO ](HttpIO.java:run:356)-조회성공 : 2013개회047492-09,개인회생61단독 (전화:[1회생] 051-590-1746),20131118,김O배,,,,,20131213 신청취하,20131122 도달,
+[12:43:44][INFO ](HttpIO.java:httpExcuteSagun:174)-김덕,000240,2010,개회,whp.SFWHP01s01Cmd,whp.SFWHP02s01Cmd,030427
+[12:43:44][INFO ](HttpIO.java:httpExcuteSagun:217)-Before httpclient.execute() 
+[12:43:44][INFO ](HttpIO.java:httpExcuteSagun:221)-after httpclient.execute() 
+[12:43:44][INFO ](HtmlParserSagun.java:parseTab1:30)-called
+[12:43:44][INFO ](HtmlParser.java:cut_value_in_nextBlock:48)-[인천지방법원 2010개회30427</h5>
+    </div>
+    <ul>
+        <li class="paddingtop15">
+            <h4 class="paddingBottom3">기본내용 &nbsp;
+
+            <a href="#" onclick="javascript:goLocation('인천지법');"><img src="/img/comm/btn_location.gif" alt="청사보기(새창)" /></a>
+
+            </h4>
+            <table class="list_01" summary="기본내용">
+            <caption>기본내용</caption>
+            <colgroup>
+            <col class="head" />
+            <col class="cell01" />
+            <col class="head" />
+            <col class="cell01" />
+            </colgroup>
+            <tr>
+                <th scope="col" class="head">사건번호</th>
+                <td class="cell01">&nbsp;2010개회30427 ],start_pos:8104
+[12:43:44][INFO ](HtmlParser.java:cut_value_in_nextBlock:48)-[제2회생단독 (전화:[인가전]860-1813[인가후]860-1857)],start_pos:8450
+[12:43:44][INFO ](HtmlParser.java:cut_value_in_nextBlock:48)-[2010.11.03],start_pos:8546
+[12:43:44][INFO ](HtmlParser.java:cut_value_in_nextBlock:48)-[김O용],start_pos:8665
+[12:43:44][INFO ](HtmlParser.java:cut_value_in_nextBlock:48)-[2012.02.16],start_pos:8876
+[12:43:44][INFO ](HtmlParser.java:cut_value_in_nextBlock:48)-[2014.03.24],start_pos:9099
+[12:43:44][INFO ](HtmlParser.java:cut_value_in_nextBlock:48)-[],start_pos:9187
+[12:43:44][INFO ](HtmlParser.java:cut_value_in_nextBlock:48)-[],start_pos:9300
+[12:43:44][INFO ](HtmlParser.java:cut_value_in_nextBlock:48)-[ ],start_pos:9388
+[12:43:44][INFO ](HttpIO.java:httpExcuteSagun:174)-김덕,000240,2010,개회,whp.SFWHP01s01Cmd,whp.SFWHP02s01Cmd,030427
+[12:43:44][INFO ](HttpIO.java:httpExcuteSagun:217)-Before httpclient.execute() 
+[12:43:45][INFO ](HttpIO.java:httpExcuteSagun:221)-after httpclient.execute() 
+[12:43:45][INFO ](HtmlParserSagun.java:parseTab2:122)-called
+[12:43:45][INFO ](HtmlParser.java:cut_value_in_nextBlock:48)-[2012.03.26 도달],start_pos:25898
+[12:43:45][INFO ](MainUX.java:updateUx:306)-info : 12/19,value : 63
+[12:43:45][INFO ](OutputExcel.java:write:69)-called
+[12:43:45][INFO ](OutputExcel.java:addDataToSheet:305)-Excel/전체/2010개회030427-03,제2회생단독 (전화:[인가전]860-1813[인가후]860-1857),20101103,김O용,20120216,20140324,,, ,,20120326 도달
+[12:43:45][INFO ](OutputExcel.java:addDataToSheet:305)-Excel/인가/2010개회030427-03,제2회생단독 (전화:[인가전]860-1813[인가후]860-1857),20101103,김O용,20120216,20140324,,, ,,20120326 도달
+[12:43:45][INFO ](HttpIO.java:run:356)-조회성공 : 2010개회030427-03,제2회생단독 (전화:[인가전]860-1813[인가후]860-1857),20101103,김O용,20120216,20140324,,, ,,20120326 도달
+[12:43:45][INFO ](HttpIO.java:httpExcuteSagun:174)-이세,000250,2011,개회,whp.SFWHP01s01Cmd,whp.SFWHP02s01Cmd,052933
+[12:43:45][INFO ](HttpIO.java:httpExcuteSagun:217)-Before httpclient.execute() 
+[12:43:45][INFO ](HttpIO.java:httpExcuteSagun:221)-after httpclient.execute() 
+[12:43:45][INFO ](HtmlParserSagun.java:parseTab1:30)-called
+[12:43:45][INFO ](HtmlParser.java:cut_value_in_nextBlock:48)-[수원지방법원 2011개회52933</h5>
+    </div>
+    <ul>
+        <li class="paddingtop15">
+            <h4 class="paddingBottom3">기본내용 &nbsp;
+
+            <a href="#" onclick="javascript:goLocation('수원지법');"><img src="/img/comm/btn_location.gif" alt="청사보기(새창)" /></a>
+
+            </h4>
+            <table class="list_01" summary="기본내용">
+            <caption>기본내용</caption>
+            <colgroup>
+            <col class="head" />
+            <col class="cell01" />
+            <col class="head" />
+            <col class="cell01" />
+            </colgroup>
+            <tr>
+                <th scope="col" class="head">사건번호</th>
+                <td class="cell01">&nbsp;2011개회52933 ],start_pos:8104
+[12:43:45][INFO ](HtmlParser.java:cut_value_in_nextBlock:48)-[개인회생14단독 (전화:[16회생] (031)210-1482)],start_pos:8446
+[12:43:45][INFO ](HtmlParser.java:cut_value_in_nextBlock:48)-[2011.10.05],start_pos:8542
+[12:43:45][INFO ](HtmlParser.java:cut_value_in_nextBlock:48)-[이O영],start_pos:8661
+[12:43:45][INFO ](HtmlParser.java:cut_value_in_nextBlock:48)-[2012.02.13],start_pos:8872
+[12:43:45][INFO ](HtmlParser.java:cut_value_in_nextBlock:48)-[],start_pos:9085
+[12:43:45][INFO ](HtmlParser.java:cut_value_in_nextBlock:48)-[],start_pos:9173
+[12:43:45][INFO ](HtmlParser.java:cut_value_in_nextBlock:48)-[],start_pos:9286
+[12:43:45][INFO ](HtmlParser.java:cut_value_in_nextBlock:48)-[2014.03.03 폐지],start_pos:9386
+[12:43:45][INFO ](HttpIO.java:httpExcuteSagun:174)-이세,000250,2011,개회,whp.SFWHP01s01Cmd,whp.SFWHP02s01Cmd,052933
+[12:43:45][INFO ](HttpIO.java:httpExcuteSagun:217)-Before httpclient.execute() 
+[12:43:45][INFO ](HttpIO.java:httpExcuteSagun:221)-after httpclient.execute() 
+[12:43:45][INFO ](HtmlParserSagun.java:parseTab2:122)-called
+[12:43:45][INFO ](HtmlParser.java:cut_value_in_nextBlock:48)-[2012.02.29 도달],start_pos:17038
+[12:43:45][INFO ](MainUX.java:updateUx:306)-info : 13/19,value : 68
+[12:43:45][INFO ](OutputExcel.java:write:69)-called
+[12:43:45][INFO ](OutputExcel.java:addDataToSheet:305)-Excel/전체/2011개회052933-04,개인회생14단독 (전화:[16회생] (031)210-1482),20111005,이O영,20120213,,,,20140303 폐지,,20120229 도달
+[12:43:45][INFO ](OutputExcel.java:addDataToSheet:305)-Excel/폐지/2011개회052933-04,개인회생14단독 (전화:[16회생] (031)210-1482),20111005,이O영,20120213,,,,20140303 폐지,,20120229 도달
+[12:43:45][INFO ](HttpIO.java:run:356)-조회성공 : 2011개회052933-04,개인회생14단독 (전화:[16회생] (031)210-1482),20111005,이O영,20120213,,,,20140303 폐지,,20120229 도달
+[12:43:45][INFO ](HttpIO.java:httpExcuteSagun:174)-남효,000520,2010,개회,whp.SFWHP01s01Cmd,whp.SFWHP02s01Cmd,001255
+[12:43:45][INFO ](HttpIO.java:httpExcuteSagun:217)-Before httpclient.execute() 
+[12:43:46][INFO ](HttpIO.java:httpExcuteSagun:221)-after httpclient.execute() 
+[12:43:46][INFO ](HtmlParserSagun.java:parseTab1:30)-called
+[12:43:46][INFO ](HtmlParser.java:cut_value_in_nextBlock:48)-[전주지방법원 2010개회1255</h5>
+    </div>
+    <ul>
+        <li class="paddingtop15">
+            <h4 class="paddingBottom3">기본내용 &nbsp;
+
+            <a href="#" onclick="javascript:goLocation('전주지법');"><img src="/img/comm/btn_location.gif" alt="청사보기(새창)" /></a>
+
+            </h4>
+            <table class="list_01" summary="기본내용">
+            <caption>기본내용</caption>
+            <colgroup>
+            <col class="head" />
+            <col class="cell01" />
+            <col class="head" />
+            <col class="cell01" />
+            </colgroup>
+            <tr>
+                <th scope="col" class="head">사건번호</th>
+                <td class="cell01">&nbsp;2010개회1255 ],start_pos:8102
+[12:43:46][INFO ](HtmlParser.java:cut_value_in_nextBlock:48)-[5단독(개인회생1계) (전화:063-259-5739)],start_pos:8439
+[12:43:46][INFO ](HtmlParser.java:cut_value_in_nextBlock:48)-[2010.01.29],start_pos:8535
+[12:43:46][INFO ](HtmlParser.java:cut_value_in_nextBlock:48)-[남O정],start_pos:8654
+[12:43:46][INFO ](HtmlParser.java:cut_value_in_nextBlock:48)-[2010.03.19],start_pos:8865
+[12:43:46][INFO ](HtmlParser.java:cut_value_in_nextBlock:48)-[2010.05.28],start_pos:9088
+[12:43:46][INFO ](HtmlParser.java:cut_value_in_nextBlock:48)-[],start_pos:9176
+[12:43:46][INFO ](HtmlParser.java:cut_value_in_nextBlock:48)-[],start_pos:9289
+[12:43:46][INFO ](HtmlParser.java:cut_value_in_nextBlock:48)-[2014.02.17 인용],start_pos:9389
+[12:43:46][INFO ](HttpIO.java:httpExcuteSagun:174)-남효,000520,2010,개회,whp.SFWHP01s01Cmd,whp.SFWHP02s01Cmd,001255
+[12:43:46][INFO ](HttpIO.java:httpExcuteSagun:217)-Before httpclient.execute() 
+[12:43:46][INFO ](HttpIO.java:httpExcuteSagun:221)-after httpclient.execute() 
+[12:43:46][INFO ](HtmlParserSagun.java:parseTab2:122)-called
+[12:43:46][INFO ](HtmlParser.java:cut_value_in_nextBlock:48)-[2010.02.03 도달],start_pos:11725
+[12:43:46][INFO ](HtmlParser.java:cut_value_in_nextBlock:48)-[2010.03.26 도달],start_pos:19189
+[12:43:46][INFO ](MainUX.java:updateUx:306)-info : 14/19,value : 73
+[12:43:46][INFO ](OutputExcel.java:write:69)-called
+[12:43:46][INFO ](OutputExcel.java:addDataToSheet:305)-Excel/전체/2010개회001255-13,5단독(개인회생1계) (전화:063-259-5739),20100129,남O정,20100319,20100528,,,20140217 인용,20100203 도달,20100326 도달
+[12:43:46][INFO ](OutputExcel.java:addDataToSheet:305)-Excel/면책/2010개회001255-13,5단독(개인회생1계) (전화:063-259-5739),20100129,남O정,20100319,20100528,,,20140217 인용,20100203 도달,20100326 도달
+[12:43:46][INFO ](HttpIO.java:run:356)-조회성공 : 2010개회001255-13,5단독(개인회생1계) (전화:063-259-5739),20100129,남O정,20100319,20100528,,,20140217 인용,20100203 도달,20100326 도달
+[12:43:46][INFO ](HttpIO.java:httpExcuteSagun:174)-권상,000310,2005,개회,whp.SFWHP01s01Cmd,whp.SFWHP02s01Cmd,043298
+[12:43:46][INFO ](HttpIO.java:httpExcuteSagun:217)-Before httpclient.execute() 
+[12:43:46][INFO ](HttpIO.java:httpExcuteSagun:221)-after httpclient.execute() 
+[12:43:46][INFO ](HtmlParserSagun.java:parseTab1:30)-called
+[12:43:46][INFO ](HtmlParser.java:cut_value_in_nextBlock:48)-[대구지방법원 2005개회43298</h5>
+    </div>
+    <ul>
+        <li class="paddingtop15">
+            <h4 class="paddingBottom3">기본내용 &nbsp;
+
+            <a href="#" onclick="javascript:goLocation('대구지법');"><img src="/img/comm/btn_location.gif" alt="청사보기(새창)" /></a>
+
+            </h4>
+            <table class="list_01" summary="기본내용">
+            <caption>기본내용</caption>
+            <colgroup>
+            <col class="head" />
+            <col class="cell01" />
+            <col class="head" />
+            <col class="cell01" />
+            </colgroup>
+            <tr>
+                <th scope="col" class="head">사건번호</th>
+                <td class="cell01">&nbsp;2005개회43298 ],start_pos:8104
+[12:43:46][INFO ](HtmlParser.java:cut_value_in_nextBlock:48)-[회생제3단독 (전화:[3회생] 0537576797)],start_pos:8440
+[12:43:46][INFO ](HtmlParser.java:cut_value_in_nextBlock:48)-[2005.09.26],start_pos:8536
+[12:43:46][INFO ](HtmlParser.java:cut_value_in_nextBlock:48)-[권O희],start_pos:8655
+[12:43:46][INFO ](HtmlParser.java:cut_value_in_nextBlock:48)-[2006.01.12],start_pos:8866
+[12:43:46][INFO ](HtmlParser.java:cut_value_in_nextBlock:48)-[2006.04.11],start_pos:9089
+[12:43:46][INFO ](HtmlParser.java:cut_value_in_nextBlock:48)-[2014.03.21],start_pos:9187
+[12:43:46][INFO ](HtmlParser.java:cut_value_in_nextBlock:48)-[],start_pos:9300
+[12:43:46][INFO ](HtmlParser.java:cut_value_in_nextBlock:48)-[2014.03.21 인용],start_pos:9400
+[12:43:46][INFO ](HttpIO.java:httpExcuteSagun:174)-권상,000310,2005,개회,whp.SFWHP01s01Cmd,whp.SFWHP02s01Cmd,043298
+[12:43:46][INFO ](HttpIO.java:httpExcuteSagun:217)-Before httpclient.execute() 
+[12:43:46][INFO ](HttpIO.java:httpExcuteSagun:221)-after httpclient.execute() 
+[12:43:46][INFO ](HtmlParserSagun.java:parseTab2:122)-called
+[12:43:46][INFO ](HtmlParser.java:cut_value_in_nextBlock:48)-[],start_pos:21416
+[12:43:46][INFO ](MainUX.java:updateUx:306)-info : 15/19,value : 78
+[12:43:46][INFO ](OutputExcel.java:write:69)-called
+[12:43:46][INFO ](OutputExcel.java:addDataToSheet:305)-Excel/전체/2005개회043298-08,회생제3단독 (전화:[3회생] 0537576797),20050926,권O희,20060112,20060411,20140321,,20140321 인용,,
+[12:43:46][INFO ](OutputExcel.java:addDataToSheet:305)-Excel/면책/2005개회043298-08,회생제3단독 (전화:[3회생] 0537576797),20050926,권O희,20060112,20060411,20140321,,20140321 인용,,
+[12:43:46][INFO ](HttpIO.java:run:356)-조회성공 : 2005개회043298-08,회생제3단독 (전화:[3회생] 0537576797),20050926,권O희,20060112,20060411,20140321,,20140321 인용,,
+[12:43:46][INFO ](HttpIO.java:httpExcuteSagun:174)-전도,000214,2013,개회,whp.SFWHP01s01Cmd,whp.SFWHP02s01Cmd,056667
+[12:43:46][INFO ](HttpIO.java:httpExcuteSagun:217)-Before httpclient.execute() 
+[12:43:47][INFO ](HttpIO.java:httpExcuteSagun:221)-after httpclient.execute() 
+[12:43:47][INFO ](HtmlParserSagun.java:parseTab1:30)-called
+[12:43:47][INFO ](HtmlParser.java:cut_value_in_nextBlock:48)-[의정부지방법원 2013개회56667</h5>
+    </div>
+    <ul>
+        <li class="paddingtop15">
+            <h4 class="paddingBottom3">기본내용 &nbsp;
+
+            <a href="#" onclick="javascript:goLocation('의정부지법');"><img src="/img/comm/btn_location.gif" alt="청사보기(새창)" /></a>
+
+            </h4>
+            <table class="list_01" summary="기본내용">
+            <caption>기본내용</caption>
+            <colgroup>
+            <col class="head" />
+            <col class="cell01" />
+            <col class="head" />
+            <col class="cell01" />
+            </colgroup>
+            <tr>
+                <th scope="col" class="head">사건번호</th>
+                <td class="cell01">&nbsp;2013개회56667 ],start_pos:8106
+[12:43:47][INFO ](HtmlParser.java:cut_value_in_nextBlock:48)-[제3회생단독 (전화:[3회생] 031-828-0376(인가후 0386))],start_pos:8454
+[12:43:47][INFO ](HtmlParser.java:cut_value_in_nextBlock:48)-[2013.08.16],start_pos:8550
+[12:43:47][INFO ](HtmlParser.java:cut_value_in_nextBlock:48)-[전O영],start_pos:8669
+[12:43:47][INFO ](HtmlParser.java:cut_value_in_nextBlock:48)-[],start_pos:8870
+[12:43:47][INFO ](HtmlParser.java:cut_value_in_nextBlock:48)-[],start_pos:9073
+[12:43:47][INFO ](HtmlParser.java:cut_value_in_nextBlock:48)-[],start_pos:9161
+[12:43:47][INFO ](HtmlParser.java:cut_value_in_nextBlock:48)-[],start_pos:9274
+[12:43:47][INFO ](HtmlParser.java:cut_value_in_nextBlock:48)-[2013.10.17 이송],start_pos:9374
+[12:43:47][INFO ](HttpIO.java:httpExcuteSagun:174)-전도,000214,2013,개회,whp.SFWHP01s01Cmd,whp.SFWHP02s01Cmd,056667
+[12:43:47][INFO ](HttpIO.java:httpExcuteSagun:217)-Before httpclient.execute() 
+[12:43:47][INFO ](HttpIO.java:httpExcuteSagun:221)-after httpclient.execute() 
+[12:43:47][INFO ](HtmlParserSagun.java:parseTab2:122)-called
+[12:43:47][INFO ](HtmlParser.java:cut_value_in_nextBlock:48)-[2013.10.07 도달],start_pos:14961
+[12:43:47][INFO ](MainUX.java:updateUx:306)-info : 16/19,value : 84
+[12:43:47][INFO ](OutputExcel.java:write:69)-called
+[12:43:47][INFO ](OutputExcel.java:addDataToSheet:305)-Excel/전체/2013개회056667-02,제3회생단독 (전화:[3회생] 031-828-0376(인가후 0386)),20130816,전O영,,,,,20131017 이송,20131007 도달,
+[12:43:47][INFO ](OutputExcel.java:addDataToSheet:305)-Excel/이송/2013개회056667-02,제3회생단독 (전화:[3회생] 031-828-0376(인가후 0386)),20130816,전O영,,,,,20131017 이송,20131007 도달,
+[12:43:47][INFO ](HttpIO.java:run:356)-조회성공 : 2013개회056667-02,제3회생단독 (전화:[3회생] 031-828-0376(인가후 0386)),20130816,전O영,,,,,20131017 이송,20131007 도달,
+[12:43:47][INFO ](HttpIO.java:httpExcuteSagun:174)-이종,000420,2013,개회,whp.SFWHP01s01Cmd,whp.SFWHP02s01Cmd,025697
+[12:43:47][INFO ](HttpIO.java:httpExcuteSagun:217)-Before httpclient.execute() 
+[12:43:47][INFO ](HttpIO.java:httpExcuteSagun:221)-after httpclient.execute() 
+[12:43:47][INFO ](HtmlParserSagun.java:parseTab1:30)-called
+[12:43:47][INFO ](HtmlParser.java:cut_value_in_nextBlock:48)-[창원지방법원 2013개회25697</h5>
+    </div>
+    <ul>
+        <li class="paddingtop15">
+            <h4 class="paddingBottom3">기본내용 &nbsp;
+
+            <a href="#" onclick="javascript:goLocation('창원지법');"><img src="/img/comm/btn_location.gif" alt="청사보기(새창)" /></a>
+
+            </h4>
+            <table class="list_01" summary="기본내용">
+            <caption>기본내용</caption>
+            <colgroup>
+            <col class="head" />
+            <col class="cell01" />
+            <col class="head" />
+            <col class="cell01" />
+            </colgroup>
+            <tr>
+                <th scope="col" class="head">사건번호</th>
+                <td class="cell01">&nbsp;2013개회25697 ],start_pos:8104
+[12:43:47][INFO ](HtmlParser.java:cut_value_in_nextBlock:48)-[제1개인회생단독 (전화:[1회생] 239-2048인가후239-2246)],start_pos:8451
+[12:43:47][INFO ](HtmlParser.java:cut_value_in_nextBlock:48)-[2013.07.02],start_pos:8547
+[12:43:47][INFO ](HtmlParser.java:cut_value_in_nextBlock:48)-[이O욱],start_pos:8666
+[12:43:47][INFO ](HtmlParser.java:cut_value_in_nextBlock:48)-[2013.10.02],start_pos:8877
+[12:43:47][INFO ](HtmlParser.java:cut_value_in_nextBlock:48)-[2013.12.18],start_pos:9100
+[12:43:47][INFO ](HtmlParser.java:cut_value_in_nextBlock:48)-[],start_pos:9188
+[12:43:47][INFO ](HtmlParser.java:cut_value_in_nextBlock:48)-[],start_pos:9301
+[12:43:47][INFO ](HtmlParser.java:cut_value_in_nextBlock:48)-[ ],start_pos:9389
+[12:43:47][INFO ](HttpIO.java:httpExcuteSagun:174)-이종,000420,2013,개회,whp.SFWHP01s01Cmd,whp.SFWHP02s01Cmd,025697
+[12:43:47][INFO ](HttpIO.java:httpExcuteSagun:217)-Before httpclient.execute() 
+[12:43:47][INFO ](HttpIO.java:httpExcuteSagun:221)-after httpclient.execute() 
+[12:43:47][INFO ](HtmlParserSagun.java:parseTab2:122)-called
+[12:43:47][INFO ](HtmlParser.java:cut_value_in_nextBlock:48)-[2013.07.10 도달],start_pos:12868
+[12:43:47][INFO ](HtmlParser.java:cut_value_in_nextBlock:48)-[2013.10.08 도달],start_pos:17845
+[12:43:47][INFO ](MainUX.java:updateUx:306)-info : 17/19,value : 89
+[12:43:47][INFO ](OutputExcel.java:write:69)-called
+[12:43:47][INFO ](OutputExcel.java:addDataToSheet:305)-Excel/전체/2013개회025697-11,제1개인회생단독 (전화:[1회생] 239-2048인가후239-2246),20130702,이O욱,20131002,20131218,,, ,20130710 도달,20131008 도달
+[12:43:47][INFO ](OutputExcel.java:addDataToSheet:305)-Excel/인가/2013개회025697-11,제1개인회생단독 (전화:[1회생] 239-2048인가후239-2246),20130702,이O욱,20131002,20131218,,, ,20130710 도달,20131008 도달
+[12:43:47][INFO ](HttpIO.java:run:356)-조회성공 : 2013개회025697-11,제1개인회생단독 (전화:[1회생] 239-2048인가후239-2246),20130702,이O욱,20131002,20131218,,, ,20130710 도달,20131008 도달
+[12:43:47][INFO ](HttpIO.java:httpExcuteSagun:174)-김희,000240,2013,개회,whp.SFWHP01s01Cmd,whp.SFWHP02s01Cmd,025709
+[12:43:47][INFO ](HttpIO.java:httpExcuteSagun:217)-Before httpclient.execute() 
+[12:43:47][INFO ](HttpIO.java:httpExcuteSagun:221)-after httpclient.execute() 
+[12:43:47][INFO ](HtmlParserSagun.java:parseTab1:30)-called
+[12:43:47][INFO ](HtmlParser.java:cut_value_in_nextBlock:48)-[인천지방법원 2013개회25709</h5>
+    </div>
+    <ul>
+        <li class="paddingtop15">
+            <h4 class="paddingBottom3">기본내용 &nbsp;
+
+            <a href="#" onclick="javascript:goLocation('인천지법');"><img src="/img/comm/btn_location.gif" alt="청사보기(새창)" /></a>
+
+            </h4>
+            <table class="list_01" summary="기본내용">
+            <caption>기본내용</caption>
+            <colgroup>
+            <col class="head" />
+            <col class="cell01" />
+            <col class="head" />
+            <col class="cell01" />
+            </colgroup>
+            <tr>
+                <th scope="col" class="head">사건번호</th>
+                <td class="cell01">&nbsp;2013개회25709 ],start_pos:8104
+[12:43:47][INFO ](HtmlParser.java:cut_value_in_nextBlock:48)-[제2회생단독 (전화:[인가전]860-1813[인가후]860-1857)],start_pos:8450
+[12:43:47][INFO ](HtmlParser.java:cut_value_in_nextBlock:48)-[2013.03.12],start_pos:8546
+[12:43:47][INFO ](HtmlParser.java:cut_value_in_nextBlock:48)-[김O정],start_pos:8665
+[12:43:47][INFO ](HtmlParser.java:cut_value_in_nextBlock:48)-[2013.06.21],start_pos:8876
+[12:43:47][INFO ](HtmlParser.java:cut_value_in_nextBlock:48)-[2014.01.02],start_pos:9099
+[12:43:47][INFO ](HtmlParser.java:cut_value_in_nextBlock:48)-[],start_pos:9187
+[12:43:47][INFO ](HtmlParser.java:cut_value_in_nextBlock:48)-[],start_pos:9300
+[12:43:47][INFO ](HtmlParser.java:cut_value_in_nextBlock:48)-[ ],start_pos:9388
+[12:43:47][INFO ](HttpIO.java:httpExcuteSagun:174)-김희,000240,2013,개회,whp.SFWHP01s01Cmd,whp.SFWHP02s01Cmd,025709
+[12:43:47][INFO ](HttpIO.java:httpExcuteSagun:217)-Before httpclient.execute() 
+[12:43:48][INFO ](HttpIO.java:httpExcuteSagun:221)-after httpclient.execute() 
+[12:43:48][INFO ](HtmlParserSagun.java:parseTab2:122)-called
+[12:43:48][INFO ](HtmlParser.java:cut_value_in_nextBlock:48)-[2013.03.19 도달],start_pos:13776
+[12:43:48][INFO ](HtmlParser.java:cut_value_in_nextBlock:48)-[2013.07.25 도달],start_pos:22743
+[12:43:48][INFO ](MainUX.java:updateUx:306)-info : 18/19,value : 94
+[12:43:48][INFO ](OutputExcel.java:write:69)-called
+[12:43:48][INFO ](OutputExcel.java:addDataToSheet:305)-Excel/전체/2013개회025709-03,제2회생단독 (전화:[인가전]860-1813[인가후]860-1857),20130312,김O정,20130621,20140102,,, ,20130319 도달,20130725 도달
+[12:43:48][INFO ](OutputExcel.java:addDataToSheet:305)-Excel/인가/2013개회025709-03,제2회생단독 (전화:[인가전]860-1813[인가후]860-1857),20130312,김O정,20130621,20140102,,, ,20130319 도달,20130725 도달
+[12:43:48][INFO ](HttpIO.java:run:356)-조회성공 : 2013개회025709-03,제2회생단독 (전화:[인가전]860-1813[인가후]860-1857),20130312,김O정,20130621,20140102,,, ,20130319 도달,20130725 도달
+[12:43:48][INFO ](HttpIO.java:httpExcuteSagun:174)-홍길,000210,2013,개회,whp.SFWHP01s01Cmd,whp.SFWHP02s01Cmd,025709
+[12:43:48][INFO ](HttpIO.java:httpExcuteSagun:217)-Before httpclient.execute() 
+[12:43:48][INFO ](HttpIO.java:httpExcuteSagun:221)-after httpclient.execute() 
+[12:43:48][INFO ](HtmlParserSagun.java:parseTab1:30)-called
+[12:43:48][INFO ](HttpIO.java:httpInit:74)-http init start ================= 
+[12:43:48][INFO ](HttpIO.java:httpExcuteSagun:174)-홍길,000210,2013,개회,whp.SFWHP01s01Cmd,whp.SFWHP02s01Cmd,025709
+[12:43:48][INFO ](HttpIO.java:httpExcuteSagun:217)-Before httpclient.execute() 
+[12:43:48][INFO ](HttpIO.java:httpExcuteSagun:221)-after httpclient.execute() 
+[12:43:48][INFO ](HtmlParserSagun.java:parseTab1:30)-called
+[12:43:48][INFO ](HttpIO.java:httpInit:74)-http init start ================= 
+[12:43:48][INFO ](HttpIO.java:httpExcuteSagun:174)-홍길,000210,2013,개회,whp.SFWHP01s01Cmd,whp.SFWHP02s01Cmd,025709
+[12:43:48][INFO ](HttpIO.java:httpExcuteSagun:217)-Before httpclient.execute() 
+[12:43:48][INFO ](HttpIO.java:httpExcuteSagun:221)-after httpclient.execute() 
+[12:43:48][INFO ](HtmlParserSagun.java:parseTab1:30)-called
+[12:43:48][INFO ](HttpIO.java:httpInit:74)-http init start ================= 
+[12:43:48][INFO ](MainUX.java:updateUx:306)-info : 19/19,value : 100
+[12:43:48][INFO ](HttpIO.java:run:363)-조회실패 : 홍길,1,서울중앙지법,2013개회025709,사건이 존재하지 않습니다.사건정보를 확인하세요.
+[12:43:48][INFO ](HttpIO.java:httpClose:97)-called
+[12:43:48][INFO ](OutputExcel.java:close:85)-called
+[12:43:48][INFO ](OutputResult.java:WriteFailList:37)-called
+[12:43:48][INFO ](OutputResult.java:WriteFailList:61)-./output/사건조회실패_0728_124348.csv 생성완료!! 
+[12:43:48][INFO ](HttpIO.java:run:387)-전체 소요시간 - 00:00:10
+[12:43:48][INFO ](HttpIO.java:run:389)-end
+[14:26:33][INFO ](InputCSV.java:ReadFile:29)-called
+[14:27:03][INFO ](HttpIO.java:run:291)-start
+[14:27:03][INFO ](HttpIO.java:httpInit:74)-http init start ================= 
+[14:27:03][INFO ](OutputExcel.java:open:38)-called
+[14:27:03][INFO ](HttpIO.java:run:308)-./output/사건검색결과_0728_142703.xls 생성
+[14:27:03][INFO ](HttpIO.java:httpExcuteSagun:174)-윤광,000210,2011,하면,whp.SFWHP01s01Cmd,whp.SFWHP02s01Cmd,012863
+[14:27:03][INFO ](HttpIO.java:httpExcuteSagun:217)-Before httpclient.execute() 
+[14:27:03][INFO ](HttpIO.java:httpExcuteSagun:221)-after httpclient.execute() 
+[14:27:03][INFO ](HtmlParserSagun.java:parseTab1:30)-called
+[14:27:03][INFO ](HtmlParser.java:cut_value_in_nextBlock:48)-[서울중앙지방법원 2011하면12863</h5>
+    </div>
+    <ul>
+        <li class="paddingtop15">
+            <h4 class="paddingBottom3">기본내용 &nbsp;
+
+            <a href="#" onclick="javascript:goLocation('서울중앙지법');"><img src="/img/comm/btn_location.gif" alt="청사보기(새창)" /></a>
+
+            </h4>
+            <table class="list_01" summary="기본내용">
+            <caption>기본내용</caption>
+            <colgroup>
+            <col class="head" />
+            <col class="cell01" />
+            <col class="head" />
+            <col class="cell01" />
+            </colgroup>
+            <tr>
+                <th scope="col" class="head">사건번호</th>
+                <td class="cell01">&nbsp;2011하면12863 ],start_pos:8108
+[14:27:03][INFO ](HtmlParser.java:cut_value_in_nextBlock:48)-[제9파산단독(가)],start_pos:8612
+[14:27:03][INFO ](HtmlParser.java:cut_value_in_nextBlock:48)-[2011.12.05],start_pos:8838
+[14:27:03][INFO ](HtmlParser.java:cut_value_in_nextBlock:48)-[2014.02.13 인용],start_pos:8954
+[14:27:03][INFO ](HttpIO.java:httpExcuteSagun:174)-윤광,000210,2011,하면,whp.SFWHP01s01Cmd,whp.SFWHP02s01Cmd,012863
+[14:27:03][INFO ](HttpIO.java:httpExcuteSagun:217)-Before httpclient.execute() 
+[14:27:03][INFO ](HttpIO.java:httpExcuteSagun:221)-after httpclient.execute() 
+[14:27:03][INFO ](HtmlParserSagun.java:parseTab2:122)-called
+[14:27:03][INFO ](MainUX.java:updateUx:306)-info : 1/19,value : 5
+[14:27:03][INFO ](OutputExcel.java:write:69)-called
+[14:27:03][INFO ](OutputExcel.java:addDataToSheet:305)-Excel/전체/2011하면012863-01,제9파산단독(가),20111205,,,,,,20140213 인용,,
+[14:27:03][INFO ](OutputExcel.java:addDataToSheet:305)-Excel/면책/2011하면012863-01,제9파산단독(가),20111205,,,,,,20140213 인용,,
+[14:27:03][INFO ](HttpIO.java:run:356)-조회성공 : 2011하면012863-01,제9파산단독(가),20111205,,,,,,20140213 인용,,
+[14:27:03][INFO ](HttpIO.java:httpExcuteSagun:174)-최용,000250,2012,하면,whp.SFWHP01s01Cmd,whp.SFWHP02s01Cmd,007333
+[14:27:03][INFO ](HttpIO.java:httpExcuteSagun:217)-Before httpclient.execute() 
+[14:27:04][INFO ](HttpIO.java:httpExcuteSagun:221)-after httpclient.execute() 
+[14:27:04][INFO ](HtmlParserSagun.java:parseTab1:30)-called
+[14:27:04][INFO ](HtmlParser.java:cut_value_in_nextBlock:48)-[수원지방법원 2012하면7333</h5>
+    </div>
+    <ul>
+        <li class="paddingtop15">
+            <h4 class="paddingBottom3">기본내용 &nbsp;
+
+            <a href="#" onclick="javascript:goLocation('수원지법');"><img src="/img/comm/btn_location.gif" alt="청사보기(새창)" /></a>
+
+            </h4>
+            <table class="list_01" summary="기본내용">
+            <caption>기본내용</caption>
+            <colgroup>
+            <col class="head" />
+            <col class="cell01" />
+            <col class="head" />
+            <col class="cell01" />
+            </colgroup>
+            <tr>
+                <th scope="col" class="head">사건번호</th>
+                <td class="cell01">&nbsp;2012하면7333 ],start_pos:8102
+[14:27:04][INFO ](HtmlParser.java:cut_value_in_nextBlock:48)-[파산5단독(가) (전화:031-210-1365)],start_pos:8636
+[14:27:04][INFO ](HtmlParser.java:cut_value_in_nextBlock:48)-[2012.09.28],start_pos:8862
+[14:27:04][INFO ](HtmlParser.java:cut_value_in_nextBlock:48)-[2014.02.24 일부인용],start_pos:8980
+[14:27:04][INFO ](HttpIO.java:httpExcuteSagun:174)-최용,000250,2012,하면,whp.SFWHP01s01Cmd,whp.SFWHP02s01Cmd,007333
+[14:27:04][INFO ](HttpIO.java:httpExcuteSagun:217)-Before httpclient.execute() 
+[14:27:04][INFO ](HttpIO.java:httpExcuteSagun:221)-after httpclient.execute() 
+[14:27:04][INFO ](HtmlParserSagun.java:parseTab2:122)-called
+[14:27:04][INFO ](MainUX.java:updateUx:306)-info : 2/19,value : 10
+[14:27:04][INFO ](OutputExcel.java:write:69)-called
+[14:27:04][INFO ](OutputExcel.java:addDataToSheet:305)-Excel/전체/2012하면007333-04,파산5단독(가) (전화:031-210-1365),20120928,,,,,,20140224 일부인용,,
+[14:27:04][INFO ](OutputExcel.java:addDataToSheet:305)-Excel/면책/2012하면007333-04,파산5단독(가) (전화:031-210-1365),20120928,,,,,,20140224 일부인용,,
+[14:27:04][INFO ](HttpIO.java:run:356)-조회성공 : 2012하면007333-04,파산5단독(가) (전화:031-210-1365),20120928,,,,,,20140224 일부인용,,
+[14:27:04][INFO ](HttpIO.java:httpExcuteSagun:174)-이두,000420,2005,하단,whp.SFWHP01s01Cmd,whp.SFWHP02s01Cmd,000354
+[14:27:04][INFO ](HttpIO.java:httpExcuteSagun:217)-Before httpclient.execute() 
+[14:27:04][INFO ](HttpIO.java:httpExcuteSagun:221)-after httpclient.execute() 
+[14:27:04][INFO ](HtmlParserSagun.java:parseTab1:30)-called
+[14:27:04][INFO ](HtmlParser.java:cut_value_in_nextBlock:48)-[창원지방법원 2005하단354</h5>
+    </div>
+    <ul>
+        <li class="paddingtop15">
+            <h4 class="paddingBottom3">기본내용 &nbsp;
+
+            <a href="#" onclick="javascript:goLocation('창원지법');"><img src="/img/comm/btn_location.gif" alt="청사보기(새창)" /></a>
+
+            </h4>
+            <table class="list_01" summary="기본내용">
+            <caption>기본내용</caption>
+            <colgroup>
+            <col class="head" />
+            <col class="cell01" />
+            <col class="head" />
+            <col class="cell01" />
+            </colgroup>
+            <tr>
+                <th scope="col" class="head">사건번호</th>
+                <td class="cell01">&nbsp;2005하단354 ],start_pos:8100
+[14:27:04][INFO ](HtmlParser.java:cut_value_in_nextBlock:48)-[제1회생단독],start_pos:8601
+[14:27:04][INFO ](HtmlParser.java:cut_value_in_nextBlock:48)-[2005.08.16],start_pos:8837
+[14:27:04][INFO ](HtmlParser.java:cut_value_in_nextBlock:48)-[2006.07.18 파산선고],start_pos:8955
+[14:27:04][INFO ](HttpIO.java:httpExcuteSagun:174)-이두,000420,2005,하단,whp.SFWHP01s01Cmd,whp.SFWHP02s01Cmd,000354
+[14:27:04][INFO ](HttpIO.java:httpExcuteSagun:217)-Before httpclient.execute() 
+[14:27:04][INFO ](HttpIO.java:httpExcuteSagun:221)-after httpclient.execute() 
+[14:27:04][INFO ](HtmlParserSagun.java:parseTab2:122)-called
+[14:27:04][INFO ](MainUX.java:updateUx:306)-info : 3/19,value : 15
+[14:27:04][INFO ](OutputExcel.java:write:69)-called
+[14:27:04][INFO ](OutputExcel.java:addDataToSheet:305)-Excel/전체/2005하단000354-11,제1회생단독,20050816,,,,,,20060718 파산선고,,
+[14:27:04][INFO ](OutputExcel.java:addDataToSheet:305)-Excel/파산선고/2005하단000354-11,제1회생단독,20050816,,,,,,20060718 파산선고,,
+[14:27:04][INFO ](HttpIO.java:run:356)-조회성공 : 2005하단000354-11,제1회생단독,20050816,,,,,,20060718 파산선고,,
+[14:27:04][INFO ](HttpIO.java:httpExcuteSagun:174)-박창,000210,2013,하면,whp.SFWHP01s01Cmd,whp.SFWHP02s01Cmd,011693
+[14:27:04][INFO ](HttpIO.java:httpExcuteSagun:217)-Before httpclient.execute() 
+[14:27:05][INFO ](HttpIO.java:httpExcuteSagun:221)-after httpclient.execute() 
+[14:27:05][INFO ](HtmlParserSagun.java:parseTab1:30)-called
+[14:27:05][INFO ](HtmlParser.java:cut_value_in_nextBlock:48)-[서울중앙지방법원 2013하면11693</h5>
+    </div>
+    <ul>
+        <li class="paddingtop15">
+            <h4 class="paddingBottom3">기본내용 &nbsp;
+
+            <a href="#" onclick="javascript:goLocation('서울중앙지법');"><img src="/img/comm/btn_location.gif" alt="청사보기(새창)" /></a>
+
+            </h4>
+            <table class="list_01" summary="기본내용">
+            <caption>기본내용</caption>
+            <colgroup>
+            <col class="head" />
+            <col class="cell01" />
+            <col class="head" />
+            <col class="cell01" />
+            </colgroup>
+            <tr>
+                <th scope="col" class="head">사건번호</th>
+                <td class="cell01">&nbsp;2013하면11693 ],start_pos:8108
+[14:27:05][INFO ](HtmlParser.java:cut_value_in_nextBlock:48)-[제6파산단독(가)],start_pos:8615
+[14:27:05][INFO ](HtmlParser.java:cut_value_in_nextBlock:48)-[2013.11.21],start_pos:8841
+[14:27:05][INFO ](HtmlParser.java:cut_value_in_nextBlock:48)-[2014.03.06 신청취하],start_pos:8959
+[14:27:05][INFO ](HttpIO.java:httpExcuteSagun:174)-박창,000210,2013,하면,whp.SFWHP01s01Cmd,whp.SFWHP02s01Cmd,011693
+[14:27:05][INFO ](HttpIO.java:httpExcuteSagun:217)-Before httpclient.execute() 
+[14:27:05][INFO ](HttpIO.java:httpExcuteSagun:221)-after httpclient.execute() 
+[14:27:05][INFO ](HtmlParserSagun.java:parseTab2:122)-called
+[14:27:05][INFO ](MainUX.java:updateUx:306)-info : 4/19,value : 21
+[14:27:05][INFO ](OutputExcel.java:write:69)-called
+[14:27:05][INFO ](OutputExcel.java:addDataToSheet:305)-Excel/전체/2013하면011693-01,제6파산단독(가),20131121,,,,,,20140306 신청취하,,
+[14:27:05][INFO ](OutputExcel.java:addDataToSheet:305)-Excel/취하/2013하면011693-01,제6파산단독(가),20131121,,,,,,20140306 신청취하,,
+[14:27:05][INFO ](HttpIO.java:run:356)-조회성공 : 2013하면011693-01,제6파산단독(가),20131121,,,,,,20140306 신청취하,,
+[14:27:05][INFO ](HttpIO.java:httpExcuteSagun:174)-박병,000510,2012,하면,whp.SFWHP01s01Cmd,whp.SFWHP02s01Cmd,001493
+[14:27:05][INFO ](HttpIO.java:httpExcuteSagun:217)-Before httpclient.execute() 
+[14:27:05][INFO ](HttpIO.java:httpExcuteSagun:221)-after httpclient.execute() 
+[14:27:05][INFO ](HtmlParserSagun.java:parseTab1:30)-called
+[14:27:05][INFO ](HtmlParser.java:cut_value_in_nextBlock:48)-[광주지방법원 2012하면1493</h5>
+    </div>
+    <ul>
+        <li class="paddingtop15">
+            <h4 class="paddingBottom3">기본내용 &nbsp;
+
+            <a href="#" onclick="javascript:goLocation('광주지법');"><img src="/img/comm/btn_location.gif" alt="청사보기(새창)" /></a>
+
+            </h4>
+            <table class="list_01" summary="기본내용">
+            <caption>기본내용</caption>
+            <colgroup>
+            <col class="head" />
+            <col class="cell01" />
+            <col class="head" />
+            <col class="cell01" />
+            </colgroup>
+            <tr>
+                <th scope="col" class="head">사건번호</th>
+                <td class="cell01">&nbsp;2012하면1493 ],start_pos:8102
+[14:27:05][INFO ](HtmlParser.java:cut_value_in_nextBlock:48)-[제4파산단독],start_pos:8608
+[14:27:05][INFO ](HtmlParser.java:cut_value_in_nextBlock:48)-[2012.05.10],start_pos:8834
+[14:27:05][INFO ](HtmlParser.java:cut_value_in_nextBlock:48)-[2014.02.20 취하],start_pos:8950
+[14:27:05][INFO ](HttpIO.java:httpExcuteSagun:174)-박병,000510,2012,하면,whp.SFWHP01s01Cmd,whp.SFWHP02s01Cmd,001493
+[14:27:05][INFO ](HttpIO.java:httpExcuteSagun:217)-Before httpclient.execute() 
+[14:27:05][INFO ](HttpIO.java:httpExcuteSagun:221)-after httpclient.execute() 
+[14:27:05][INFO ](HtmlParserSagun.java:parseTab2:122)-called
+[14:27:05][INFO ](MainUX.java:updateUx:306)-info : 5/19,value : 26
+[14:27:05][INFO ](OutputExcel.java:write:69)-called
+[14:27:05][INFO ](OutputExcel.java:addDataToSheet:305)-Excel/전체/2012하면001493-12,제4파산단독,20120510,,,,,,20140220 취하,,
+[14:27:05][INFO ](OutputExcel.java:addDataToSheet:305)-Excel/취하/2012하면001493-12,제4파산단독,20120510,,,,,,20140220 취하,,
+[14:27:05][INFO ](HttpIO.java:run:356)-조회성공 : 2012하면001493-12,제4파산단독,20120510,,,,,,20140220 취하,,
+[14:27:05][INFO ](HttpIO.java:httpExcuteSagun:174)-이천,000210,2005,하단,whp.SFWHP01s01Cmd,whp.SFWHP02s01Cmd,005999
+[14:27:05][INFO ](HttpIO.java:httpExcuteSagun:217)-Before httpclient.execute() 
+[14:27:05][INFO ](HttpIO.java:httpExcuteSagun:221)-after httpclient.execute() 
+[14:27:06][INFO ](HtmlParserSagun.java:parseTab1:30)-called
+[14:27:06][INFO ](HtmlParser.java:cut_value_in_nextBlock:48)-[서울중앙지방법원 2005하단5999</h5>
+    </div>
+    <ul>
+        <li class="paddingtop15">
+            <h4 class="paddingBottom3">기본내용 &nbsp;
+
+            <a href="#" onclick="javascript:goLocation('서울중앙지법');"><img src="/img/comm/btn_location.gif" alt="청사보기(새창)" /></a>
+
+            </h4>
+            <table class="list_01" summary="기본내용">
+            <caption>기본내용</caption>
+            <colgroup>
+            <col class="head" />
+            <col class="cell01" />
+            <col class="head" />
+            <col class="cell01" />
+            </colgroup>
+            <tr>
+                <th scope="col" class="head">사건번호</th>
+                <td class="cell01">&nbsp;2005하단5999 ],start_pos:8106
+[14:27:06][INFO ](HtmlParser.java:cut_value_in_nextBlock:48)-[제7파산단독 (전화:530-1490)],start_pos:8621
+[14:27:06][INFO ](HtmlParser.java:cut_value_in_nextBlock:48)-[2005.06.24],start_pos:8857
+[14:27:06][INFO ](HtmlParser.java:cut_value_in_nextBlock:48)-[2005.09.09 이송],start_pos:8973
+[14:27:06][INFO ](HttpIO.java:httpExcuteSagun:174)-이천,000210,2005,하단,whp.SFWHP01s01Cmd,whp.SFWHP02s01Cmd,005999
+[14:27:06][INFO ](HttpIO.java:httpExcuteSagun:217)-Before httpclient.execute() 
+[14:27:06][INFO ](HttpIO.java:httpExcuteSagun:221)-after httpclient.execute() 
+[14:27:06][INFO ](HtmlParserSagun.java:parseTab2:122)-called
+[14:27:06][INFO ](MainUX.java:updateUx:306)-info : 6/19,value : 31
+[14:27:06][INFO ](OutputExcel.java:write:69)-called
+[14:27:06][INFO ](OutputExcel.java:addDataToSheet:305)-Excel/전체/2005하단005999-01,제7파산단독 (전화:530-1490),20050624,,,,,,20050909 이송,,
+[14:27:06][INFO ](OutputExcel.java:addDataToSheet:305)-Excel/이송/2005하단005999-01,제7파산단독 (전화:530-1490),20050624,,,,,,20050909 이송,,
+[14:27:06][INFO ](HttpIO.java:run:356)-조회성공 : 2005하단005999-01,제7파산단독 (전화:530-1490),20050624,,,,,,20050909 이송,,
+[14:27:06][INFO ](HttpIO.java:httpExcuteSagun:174)-비앤,000210,2013,하합,whp.SFWHP01s01Cmd,whp.SFWHP02s01Cmd,000120
+[14:27:06][INFO ](HttpIO.java:httpExcuteSagun:217)-Before httpclient.execute() 
+[14:27:06][INFO ](HttpIO.java:httpExcuteSagun:221)-after httpclient.execute() 
+[14:27:06][INFO ](HtmlParserSagun.java:parseTab1:30)-called
+[14:27:06][INFO ](HtmlParser.java:cut_value_in_nextBlock:48)-[서울중앙지방법원 2013하합120</h5>
+    </div>
+    <ul>
+        <li class="paddingtop15">
+            <h4 class="paddingBottom3">기본내용 &nbsp;
+
+            <a href="#" onclick="javascript:goLocation('서울중앙지법');"><img src="/img/comm/btn_location.gif" alt="청사보기(새창)" /></a>
+
+            </h4>
+            <table class="list_01" summary="기본내용">
+            <caption>기본내용</caption>
+            <colgroup>
+            <col class="head" />
+            <col class="cell01" />
+            <col class="head" />
+            <col class="cell01" />
+            </colgroup>
+            <tr>
+                <th scope="col" class="head">사건번호</th>
+                <td class="cell01">&nbsp;2013하합120 ],start_pos:8104
+[14:27:06][INFO ](HtmlParser.java:cut_value_in_nextBlock:48)-[제12파산부(다)],start_pos:8605
+[14:27:06][INFO ](HtmlParser.java:cut_value_in_nextBlock:48)-[2013.07.17],start_pos:8831
+[14:27:06][INFO ](HtmlParser.java:cut_value_in_nextBlock:48)-[2013.12.19 폐지],start_pos:8947
+[14:27:06][INFO ](HttpIO.java:httpExcuteSagun:174)-비앤,000210,2013,하합,whp.SFWHP01s01Cmd,whp.SFWHP02s01Cmd,000120
+[14:27:06][INFO ](HttpIO.java:httpExcuteSagun:217)-Before httpclient.execute() 
+[14:27:06][INFO ](HttpIO.java:httpExcuteSagun:221)-after httpclient.execute() 
+[14:27:06][INFO ](HtmlParserSagun.java:parseTab2:122)-called
+[14:27:06][INFO ](MainUX.java:updateUx:306)-info : 7/19,value : 36
+[14:27:06][INFO ](OutputExcel.java:write:69)-called
+[14:27:06][INFO ](OutputExcel.java:addDataToSheet:305)-Excel/전체/2013하합000120-01,제12파산부(다),20130717,,,,,,20131219 폐지,,
+[14:27:06][INFO ](OutputExcel.java:addDataToSheet:305)-Excel/폐지/2013하합000120-01,제12파산부(다),20130717,,,,,,20131219 폐지,,
+[14:27:06][INFO ](HttpIO.java:run:356)-조회성공 : 2013하합000120-01,제12파산부(다),20130717,,,,,,20131219 폐지,,
+[14:27:06][INFO ](HttpIO.java:httpExcuteSagun:174)-윤홍,000214,2012,하면,whp.SFWHP01s01Cmd,whp.SFWHP02s01Cmd,000924
+[14:27:06][INFO ](HttpIO.java:httpExcuteSagun:217)-Before httpclient.execute() 
+[14:27:06][INFO ](HttpIO.java:httpExcuteSagun:221)-after httpclient.execute() 
+[14:27:06][INFO ](HtmlParserSagun.java:parseTab1:30)-called
+[14:27:06][INFO ](HtmlParser.java:cut_value_in_nextBlock:48)-[의정부지방법원 2012하면924</h5>
+    </div>
+    <ul>
+        <li class="paddingtop15">
+            <h4 class="paddingBottom3">기본내용 &nbsp;
+
+            <a href="#" onclick="javascript:goLocation('의정부지법');"><img src="/img/comm/btn_location.gif" alt="청사보기(새창)" /></a>
+
+            </h4>
+            <table class="list_01" summary="기본내용">
+            <caption>기본내용</caption>
+            <colgroup>
+            <col class="head" />
+            <col class="cell01" />
+            <col class="head" />
+            <col class="cell01" />
+            </colgroup>
+            <tr>
+                <th scope="col" class="head">사건번호</th>
+                <td class="cell01">&nbsp;2012하면924 ],start_pos:8102
+[14:27:06][INFO ](HtmlParser.java:cut_value_in_nextBlock:48)-[제1파산단독 (전화:031-828-0316)],start_pos:8621
+[14:27:06][INFO ](HtmlParser.java:cut_value_in_nextBlock:48)-[2012.03.12],start_pos:8847
+[14:27:06][INFO ](HtmlParser.java:cut_value_in_nextBlock:48)-[2014.01.29 기각],start_pos:8963
+[14:27:06][INFO ](HttpIO.java:httpExcuteSagun:174)-윤홍,000214,2012,하면,whp.SFWHP01s01Cmd,whp.SFWHP02s01Cmd,000924
+[14:27:06][INFO ](HttpIO.java:httpExcuteSagun:217)-Before httpclient.execute() 
+[14:27:07][INFO ](HttpIO.java:httpExcuteSagun:221)-after httpclient.execute() 
+[14:27:07][INFO ](HtmlParserSagun.java:parseTab2:122)-called
+[14:27:07][INFO ](MainUX.java:updateUx:306)-info : 8/19,value : 42
+[14:27:07][INFO ](OutputExcel.java:write:69)-called
+[14:27:07][INFO ](OutputExcel.java:addDataToSheet:305)-Excel/전체/2012하면000924-02,제1파산단독 (전화:031-828-0316),20120312,,,,,,20140129 기각,,
+[14:27:07][INFO ](OutputExcel.java:addDataToSheet:305)-Excel/기각/2012하면000924-02,제1파산단독 (전화:031-828-0316),20120312,,,,,,20140129 기각,,
+[14:27:07][INFO ](HttpIO.java:run:356)-조회성공 : 2012하면000924-02,제1파산단독 (전화:031-828-0316),20120312,,,,,,20140129 기각,,
+[14:27:07][INFO ](HttpIO.java:httpExcuteSagun:174)-신중,000280,2013,하면,whp.SFWHP01s01Cmd,whp.SFWHP02s01Cmd,002328
+[14:27:07][INFO ](HttpIO.java:httpExcuteSagun:217)-Before httpclient.execute() 
+[14:27:07][INFO ](HttpIO.java:httpExcuteSagun:221)-after httpclient.execute() 
+[14:27:07][INFO ](HtmlParserSagun.java:parseTab1:30)-called
+[14:27:07][INFO ](HtmlParser.java:cut_value_in_nextBlock:48)-[대전지방법원 2013하면2328</h5>
+    </div>
+    <ul>
+        <li class="paddingtop15">
+            <h4 class="paddingBottom3">기본내용 &nbsp;
+
+            <a href="#" onclick="javascript:goLocation('대전지법');"><img src="/img/comm/btn_location.gif" alt="청사보기(새창)" /></a>
+
+            </h4>
+            <table class="list_01" summary="기본내용">
+            <caption>기본내용</caption>
+            <colgroup>
+            <col class="head" />
+            <col class="cell01" />
+            <col class="head" />
+            <col class="cell01" />
+            </colgroup>
+            <tr>
+                <th scope="col" class="head">사건번호</th>
+                <td class="cell01">&nbsp;2013하면2328 ],start_pos:8102
+[14:27:07][INFO ](HtmlParser.java:cut_value_in_nextBlock:48)-[회생6단독 파산 (전화:042-470-1945)],start_pos:8625
+[14:27:07][INFO ](HtmlParser.java:cut_value_in_nextBlock:48)-[2013.10.21],start_pos:8851
+[14:27:07][INFO ](HtmlParser.java:cut_value_in_nextBlock:48)-[2014.02.20 불허가],start_pos:8968
+[14:27:07][INFO ](HttpIO.java:httpExcuteSagun:174)-신중,000280,2013,하면,whp.SFWHP01s01Cmd,whp.SFWHP02s01Cmd,002328
+[14:27:07][INFO ](HttpIO.java:httpExcuteSagun:217)-Before httpclient.execute() 
+[14:27:07][INFO ](HttpIO.java:httpExcuteSagun:221)-after httpclient.execute() 
+[14:27:07][INFO ](HtmlParserSagun.java:parseTab2:122)-called
+[14:27:07][INFO ](MainUX.java:updateUx:306)-info : 9/19,value : 47
+[14:27:07][INFO ](OutputExcel.java:write:69)-called
+[14:27:07][INFO ](OutputExcel.java:addDataToSheet:305)-Excel/전체/2013하면002328-06,회생6단독 파산 (전화:042-470-1945),20131021,,,,,,20140220 불허가,,
+[14:27:07][INFO ](OutputExcel.java:addDataToSheet:305)-Excel/불허가/2013하면002328-06,회생6단독 파산 (전화:042-470-1945),20131021,,,,,,20140220 불허가,,
+[14:27:07][INFO ](HttpIO.java:run:356)-조회성공 : 2013하면002328-06,회생6단독 파산 (전화:042-470-1945),20131021,,,,,,20140220 불허가,,
+[14:27:07][INFO ](HttpIO.java:httpExcuteSagun:174)-황주,000240,2013,개회,whp.SFWHP01s01Cmd,whp.SFWHP02s01Cmd,045918
+[14:27:07][INFO ](HttpIO.java:httpExcuteSagun:217)-Before httpclient.execute() 
+[14:27:07][INFO ](HttpIO.java:httpExcuteSagun:221)-after httpclient.execute() 
+[14:27:07][INFO ](HtmlParserSagun.java:parseTab1:30)-called
+[14:27:07][INFO ](HtmlParser.java:cut_value_in_nextBlock:48)-[인천지방법원 2013개회45918</h5>
+    </div>
+    <ul>
+        <li class="paddingtop15">
+            <h4 class="paddingBottom3">기본내용 &nbsp;
+
+            <a href="#" onclick="javascript:goLocation('인천지법');"><img src="/img/comm/btn_location.gif" alt="청사보기(새창)" /></a>
+
+            </h4>
+            <table class="list_01" summary="기본내용">
+            <caption>기본내용</caption>
+            <colgroup>
+            <col class="head" />
+            <col class="cell01" />
+            <col class="head" />
+            <col class="cell01" />
+            </colgroup>
+            <tr>
+                <th scope="col" class="head">사건번호</th>
+                <td class="cell01">&nbsp;2013개회45918 ],start_pos:8104
+[14:27:07][INFO ](HtmlParser.java:cut_value_in_nextBlock:48)-[제21외부회생 (전화:[21회생] 032-426-9379)],start_pos:8444
+[14:27:07][INFO ](HtmlParser.java:cut_value_in_nextBlock:48)-[2013.04.29],start_pos:8540
+[14:27:07][INFO ](HtmlParser.java:cut_value_in_nextBlock:48)-[황O선],start_pos:8659
+[14:27:07][INFO ](HtmlParser.java:cut_value_in_nextBlock:48)-[],start_pos:8860
+[14:27:07][INFO ](HtmlParser.java:cut_value_in_nextBlock:48)-[],start_pos:9063
+[14:27:07][INFO ](HtmlParser.java:cut_value_in_nextBlock:48)-[],start_pos:9151
+[14:27:07][INFO ](HtmlParser.java:cut_value_in_nextBlock:48)-[],start_pos:9264
+[14:27:07][INFO ](HtmlParser.java:cut_value_in_nextBlock:48)-[2013.11.29 기각],start_pos:9364
+[14:27:07][INFO ](HttpIO.java:httpExcuteSagun:174)-황주,000240,2013,개회,whp.SFWHP01s01Cmd,whp.SFWHP02s01Cmd,045918
+[14:27:07][INFO ](HttpIO.java:httpExcuteSagun:217)-Before httpclient.execute() 
+[14:27:08][INFO ](HttpIO.java:httpExcuteSagun:221)-after httpclient.execute() 
+[14:27:08][INFO ](HtmlParserSagun.java:parseTab2:122)-called
+[14:27:08][INFO ](MainUX.java:updateUx:306)-info : 10/19,value : 52
+[14:27:08][INFO ](OutputExcel.java:write:69)-called
+[14:27:08][INFO ](OutputExcel.java:addDataToSheet:305)-Excel/전체/2013개회045918-03,제21외부회생 (전화:[21회생] 032-426-9379),20130429,황O선,,,,,20131129 기각,,
+[14:27:08][INFO ](OutputExcel.java:addDataToSheet:305)-Excel/기각/2013개회045918-03,제21외부회생 (전화:[21회생] 032-426-9379),20130429,황O선,,,,,20131129 기각,,
+[14:27:08][INFO ](HttpIO.java:run:356)-조회성공 : 2013개회045918-03,제21외부회생 (전화:[21회생] 032-426-9379),20130429,황O선,,,,,20131129 기각,,
+[14:27:08][INFO ](HttpIO.java:httpExcuteSagun:174)-김영,000410,2013,개회,whp.SFWHP01s01Cmd,whp.SFWHP02s01Cmd,047492
+[14:27:08][INFO ](HttpIO.java:httpExcuteSagun:217)-Before httpclient.execute() 
+[14:27:08][INFO ](HttpIO.java:httpExcuteSagun:221)-after httpclient.execute() 
+[14:27:08][INFO ](HtmlParserSagun.java:parseTab1:30)-called
+[14:27:08][INFO ](HtmlParser.java:cut_value_in_nextBlock:48)-[부산지방법원 2013개회47492</h5>
+    </div>
+    <ul>
+        <li class="paddingtop15">
+            <h4 class="paddingBottom3">기본내용 &nbsp;
+
+            <a href="#" onclick="javascript:goLocation('부산지법');"><img src="/img/comm/btn_location.gif" alt="청사보기(새창)" /></a>
+
+            </h4>
+            <table class="list_01" summary="기본내용">
+            <caption>기본내용</caption>
+            <colgroup>
+            <col class="head" />
+            <col class="cell01" />
+            <col class="head" />
+            <col class="cell01" />
+            </colgroup>
+            <tr>
+                <th scope="col" class="head">사건번호</th>
+                <td class="cell01">&nbsp;2013개회47492 ],start_pos:8104
+[14:27:08][INFO ](HtmlParser.java:cut_value_in_nextBlock:48)-[개인회생61단독 (전화:[1회생] 051-590-1746)],start_pos:8444
+[14:27:08][INFO ](HtmlParser.java:cut_value_in_nextBlock:48)-[2013.11.18],start_pos:8540
+[14:27:08][INFO ](HtmlParser.java:cut_value_in_nextBlock:48)-[김O배],start_pos:8659
+[14:27:08][INFO ](HtmlParser.java:cut_value_in_nextBlock:48)-[],start_pos:8860
+[14:27:08][INFO ](HtmlParser.java:cut_value_in_nextBlock:48)-[],start_pos:9063
+[14:27:08][INFO ](HtmlParser.java:cut_value_in_nextBlock:48)-[],start_pos:9151
+[14:27:08][INFO ](HtmlParser.java:cut_value_in_nextBlock:48)-[],start_pos:9264
+[14:27:08][INFO ](HtmlParser.java:cut_value_in_nextBlock:48)-[2013.12.13 신청취하],start_pos:9366
+[14:27:08][INFO ](HttpIO.java:httpExcuteSagun:174)-김영,000410,2013,개회,whp.SFWHP01s01Cmd,whp.SFWHP02s01Cmd,047492
+[14:27:08][INFO ](HttpIO.java:httpExcuteSagun:217)-Before httpclient.execute() 
+[14:27:08][INFO ](HttpIO.java:httpExcuteSagun:221)-after httpclient.execute() 
+[14:27:08][INFO ](HtmlParserSagun.java:parseTab2:122)-called
+[14:27:08][INFO ](HtmlParser.java:cut_value_in_nextBlock:48)-[2013.11.22 도달],start_pos:13200
+[14:27:08][INFO ](MainUX.java:updateUx:306)-info : 11/19,value : 57
+[14:27:08][INFO ](OutputExcel.java:write:69)-called
+[14:27:08][INFO ](OutputExcel.java:addDataToSheet:305)-Excel/전체/2013개회047492-09,개인회생61단독 (전화:[1회생] 051-590-1746),20131118,김O배,,,,,20131213 신청취하,20131122 도달,
+[14:27:08][INFO ](OutputExcel.java:addDataToSheet:305)-Excel/취하/2013개회047492-09,개인회생61단독 (전화:[1회생] 051-590-1746),20131118,김O배,,,,,20131213 신청취하,20131122 도달,
+[14:27:08][INFO ](HttpIO.java:run:356)-조회성공 : 2013개회047492-09,개인회생61단독 (전화:[1회생] 051-590-1746),20131118,김O배,,,,,20131213 신청취하,20131122 도달,
+[14:27:08][INFO ](HttpIO.java:httpExcuteSagun:174)-김덕,000240,2010,개회,whp.SFWHP01s01Cmd,whp.SFWHP02s01Cmd,030427
+[14:27:08][INFO ](HttpIO.java:httpExcuteSagun:217)-Before httpclient.execute() 
+[14:27:09][INFO ](HttpIO.java:httpExcuteSagun:221)-after httpclient.execute() 
+[14:27:09][INFO ](HtmlParserSagun.java:parseTab1:30)-called
+[14:27:09][INFO ](HtmlParser.java:cut_value_in_nextBlock:48)-[인천지방법원 2010개회30427</h5>
+    </div>
+    <ul>
+        <li class="paddingtop15">
+            <h4 class="paddingBottom3">기본내용 &nbsp;
+
+            <a href="#" onclick="javascript:goLocation('인천지법');"><img src="/img/comm/btn_location.gif" alt="청사보기(새창)" /></a>
+
+            </h4>
+            <table class="list_01" summary="기본내용">
+            <caption>기본내용</caption>
+            <colgroup>
+            <col class="head" />
+            <col class="cell01" />
+            <col class="head" />
+            <col class="cell01" />
+            </colgroup>
+            <tr>
+                <th scope="col" class="head">사건번호</th>
+                <td class="cell01">&nbsp;2010개회30427 ],start_pos:8104
+[14:27:09][INFO ](HtmlParser.java:cut_value_in_nextBlock:48)-[제2회생단독 (전화:[인가전]860-1813[인가후]860-1857)],start_pos:8450
+[14:27:09][INFO ](HtmlParser.java:cut_value_in_nextBlock:48)-[2010.11.03],start_pos:8546
+[14:27:09][INFO ](HtmlParser.java:cut_value_in_nextBlock:48)-[김O용],start_pos:8665
+[14:27:09][INFO ](HtmlParser.java:cut_value_in_nextBlock:48)-[2012.02.16],start_pos:8876
+[14:27:09][INFO ](HtmlParser.java:cut_value_in_nextBlock:48)-[2014.03.24],start_pos:9099
+[14:27:09][INFO ](HtmlParser.java:cut_value_in_nextBlock:48)-[],start_pos:9187
+[14:27:09][INFO ](HtmlParser.java:cut_value_in_nextBlock:48)-[],start_pos:9300
+[14:27:09][INFO ](HtmlParser.java:cut_value_in_nextBlock:48)-[ ],start_pos:9388
+[14:27:09][INFO ](HttpIO.java:httpExcuteSagun:174)-김덕,000240,2010,개회,whp.SFWHP01s01Cmd,whp.SFWHP02s01Cmd,030427
+[14:27:09][INFO ](HttpIO.java:httpExcuteSagun:217)-Before httpclient.execute() 
+[14:27:09][INFO ](HttpIO.java:httpExcuteSagun:221)-after httpclient.execute() 
+[14:27:10][INFO ](HtmlParserSagun.java:parseTab2:122)-called
+[14:27:10][INFO ](HtmlParser.java:cut_value_in_nextBlock:48)-[2012.03.26 도달],start_pos:25898
+[14:27:10][INFO ](MainUX.java:updateUx:306)-info : 12/19,value : 63
+[14:27:10][INFO ](OutputExcel.java:write:69)-called
+[14:27:10][INFO ](OutputExcel.java:addDataToSheet:305)-Excel/전체/2010개회030427-03,제2회생단독 (전화:[인가전]860-1813[인가후]860-1857),20101103,김O용,20120216,20140324,,, ,,20120326 도달
+[14:27:10][INFO ](OutputExcel.java:addDataToSheet:305)-Excel/인가/2010개회030427-03,제2회생단독 (전화:[인가전]860-1813[인가후]860-1857),20101103,김O용,20120216,20140324,,, ,,20120326 도달
+[14:27:10][INFO ](HttpIO.java:run:356)-조회성공 : 2010개회030427-03,제2회생단독 (전화:[인가전]860-1813[인가후]860-1857),20101103,김O용,20120216,20140324,,, ,,20120326 도달
+[14:27:10][INFO ](HttpIO.java:httpExcuteSagun:174)-이세,000250,2011,개회,whp.SFWHP01s01Cmd,whp.SFWHP02s01Cmd,052933
+[14:27:10][INFO ](HttpIO.java:httpExcuteSagun:217)-Before httpclient.execute() 
+[14:27:10][INFO ](HttpIO.java:httpExcuteSagun:221)-after httpclient.execute() 
+[14:27:10][INFO ](HtmlParserSagun.java:parseTab1:30)-called
+[14:27:10][INFO ](HtmlParser.java:cut_value_in_nextBlock:48)-[수원지방법원 2011개회52933</h5>
+    </div>
+    <ul>
+        <li class="paddingtop15">
+            <h4 class="paddingBottom3">기본내용 &nbsp;
+
+            <a href="#" onclick="javascript:goLocation('수원지법');"><img src="/img/comm/btn_location.gif" alt="청사보기(새창)" /></a>
+
+            </h4>
+            <table class="list_01" summary="기본내용">
+            <caption>기본내용</caption>
+            <colgroup>
+            <col class="head" />
+            <col class="cell01" />
+            <col class="head" />
+            <col class="cell01" />
+            </colgroup>
+            <tr>
+                <th scope="col" class="head">사건번호</th>
+                <td class="cell01">&nbsp;2011개회52933 ],start_pos:8104
+[14:27:10][INFO ](HtmlParser.java:cut_value_in_nextBlock:48)-[개인회생14단독 (전화:[16회생] (031)210-1482)],start_pos:8446
+[14:27:10][INFO ](HtmlParser.java:cut_value_in_nextBlock:48)-[2011.10.05],start_pos:8542
+[14:27:10][INFO ](HtmlParser.java:cut_value_in_nextBlock:48)-[이O영],start_pos:8661
+[14:27:10][INFO ](HtmlParser.java:cut_value_in_nextBlock:48)-[2012.02.13],start_pos:8872
+[14:27:10][INFO ](HtmlParser.java:cut_value_in_nextBlock:48)-[],start_pos:9085
+[14:27:10][INFO ](HtmlParser.java:cut_value_in_nextBlock:48)-[],start_pos:9173
+[14:27:10][INFO ](HtmlParser.java:cut_value_in_nextBlock:48)-[],start_pos:9286
+[14:27:10][INFO ](HtmlParser.java:cut_value_in_nextBlock:48)-[2014.03.03 폐지],start_pos:9386
+[14:27:10][INFO ](HttpIO.java:httpExcuteSagun:174)-이세,000250,2011,개회,whp.SFWHP01s01Cmd,whp.SFWHP02s01Cmd,052933
+[14:27:10][INFO ](HttpIO.java:httpExcuteSagun:217)-Before httpclient.execute() 
+[14:27:10][INFO ](HttpIO.java:httpExcuteSagun:221)-after httpclient.execute() 
+[14:27:10][INFO ](HtmlParserSagun.java:parseTab2:122)-called
+[14:27:10][INFO ](HtmlParser.java:cut_value_in_nextBlock:48)-[2012.02.29 도달],start_pos:17038
+[14:27:10][INFO ](MainUX.java:updateUx:306)-info : 13/19,value : 68
+[14:27:10][INFO ](OutputExcel.java:write:69)-called
+[14:27:10][INFO ](OutputExcel.java:addDataToSheet:305)-Excel/전체/2011개회052933-04,개인회생14단독 (전화:[16회생] (031)210-1482),20111005,이O영,20120213,,,,20140303 폐지,,20120229 도달
+[14:27:10][INFO ](OutputExcel.java:addDataToSheet:305)-Excel/폐지/2011개회052933-04,개인회생14단독 (전화:[16회생] (031)210-1482),20111005,이O영,20120213,,,,20140303 폐지,,20120229 도달
+[14:27:10][INFO ](HttpIO.java:run:356)-조회성공 : 2011개회052933-04,개인회생14단독 (전화:[16회생] (031)210-1482),20111005,이O영,20120213,,,,20140303 폐지,,20120229 도달
+[14:27:10][INFO ](HttpIO.java:httpExcuteSagun:174)-남효,000520,2010,개회,whp.SFWHP01s01Cmd,whp.SFWHP02s01Cmd,001255
+[14:27:10][INFO ](HttpIO.java:httpExcuteSagun:217)-Before httpclient.execute() 
+[14:27:10][INFO ](HttpIO.java:httpExcuteSagun:221)-after httpclient.execute() 
+[14:27:10][INFO ](HtmlParserSagun.java:parseTab1:30)-called
+[14:27:10][INFO ](HtmlParser.java:cut_value_in_nextBlock:48)-[전주지방법원 2010개회1255</h5>
+    </div>
+    <ul>
+        <li class="paddingtop15">
+            <h4 class="paddingBottom3">기본내용 &nbsp;
+
+            <a href="#" onclick="javascript:goLocation('전주지법');"><img src="/img/comm/btn_location.gif" alt="청사보기(새창)" /></a>
+
+            </h4>
+            <table class="list_01" summary="기본내용">
+            <caption>기본내용</caption>
+            <colgroup>
+            <col class="head" />
+            <col class="cell01" />
+            <col class="head" />
+            <col class="cell01" />
+            </colgroup>
+            <tr>
+                <th scope="col" class="head">사건번호</th>
+                <td class="cell01">&nbsp;2010개회1255 ],start_pos:8102
+[14:27:10][INFO ](HtmlParser.java:cut_value_in_nextBlock:48)-[5단독(개인회생1계) (전화:063-259-5739)],start_pos:8439
+[14:27:10][INFO ](HtmlParser.java:cut_value_in_nextBlock:48)-[2010.01.29],start_pos:8535
+[14:27:10][INFO ](HtmlParser.java:cut_value_in_nextBlock:48)-[남O정],start_pos:8654
+[14:27:10][INFO ](HtmlParser.java:cut_value_in_nextBlock:48)-[2010.03.19],start_pos:8865
+[14:27:10][INFO ](HtmlParser.java:cut_value_in_nextBlock:48)-[2010.05.28],start_pos:9088
+[14:27:10][INFO ](HtmlParser.java:cut_value_in_nextBlock:48)-[],start_pos:9176
+[14:27:10][INFO ](HtmlParser.java:cut_value_in_nextBlock:48)-[],start_pos:9289
+[14:27:10][INFO ](HtmlParser.java:cut_value_in_nextBlock:48)-[2014.02.17 인용],start_pos:9389
+[14:27:10][INFO ](HttpIO.java:httpExcuteSagun:174)-남효,000520,2010,개회,whp.SFWHP01s01Cmd,whp.SFWHP02s01Cmd,001255
+[14:27:10][INFO ](HttpIO.java:httpExcuteSagun:217)-Before httpclient.execute() 
+[14:27:11][INFO ](HttpIO.java:httpExcuteSagun:221)-after httpclient.execute() 
+[14:27:11][INFO ](HtmlParserSagun.java:parseTab2:122)-called
+[14:27:11][INFO ](HtmlParser.java:cut_value_in_nextBlock:48)-[2010.02.03 도달],start_pos:11725
+[14:27:11][INFO ](HtmlParser.java:cut_value_in_nextBlock:48)-[2010.03.26 도달],start_pos:19189
+[14:27:11][INFO ](MainUX.java:updateUx:306)-info : 14/19,value : 73
+[14:27:11][INFO ](OutputExcel.java:write:69)-called
+[14:27:11][INFO ](OutputExcel.java:addDataToSheet:305)-Excel/전체/2010개회001255-13,5단독(개인회생1계) (전화:063-259-5739),20100129,남O정,20100319,20100528,,,20140217 인용,20100203 도달,20100326 도달
+[14:27:11][INFO ](OutputExcel.java:addDataToSheet:305)-Excel/면책/2010개회001255-13,5단독(개인회생1계) (전화:063-259-5739),20100129,남O정,20100319,20100528,,,20140217 인용,20100203 도달,20100326 도달
+[14:27:11][INFO ](HttpIO.java:run:356)-조회성공 : 2010개회001255-13,5단독(개인회생1계) (전화:063-259-5739),20100129,남O정,20100319,20100528,,,20140217 인용,20100203 도달,20100326 도달
+[14:27:11][INFO ](HttpIO.java:httpExcuteSagun:174)-권상,000310,2005,개회,whp.SFWHP01s01Cmd,whp.SFWHP02s01Cmd,043298
+[14:27:11][INFO ](HttpIO.java:httpExcuteSagun:217)-Before httpclient.execute() 
+[14:27:11][INFO ](HttpIO.java:httpExcuteSagun:221)-after httpclient.execute() 
+[14:27:11][INFO ](HtmlParserSagun.java:parseTab1:30)-called
+[14:27:11][INFO ](HtmlParser.java:cut_value_in_nextBlock:48)-[대구지방법원 2005개회43298</h5>
+    </div>
+    <ul>
+        <li class="paddingtop15">
+            <h4 class="paddingBottom3">기본내용 &nbsp;
+
+            <a href="#" onclick="javascript:goLocation('대구지법');"><img src="/img/comm/btn_location.gif" alt="청사보기(새창)" /></a>
+
+            </h4>
+            <table class="list_01" summary="기본내용">
+            <caption>기본내용</caption>
+            <colgroup>
+            <col class="head" />
+            <col class="cell01" />
+            <col class="head" />
+            <col class="cell01" />
+            </colgroup>
+            <tr>
+                <th scope="col" class="head">사건번호</th>
+                <td class="cell01">&nbsp;2005개회43298 ],start_pos:8104
+[14:27:11][INFO ](HtmlParser.java:cut_value_in_nextBlock:48)-[회생제3단독 (전화:[3회생] 0537576797)],start_pos:8440
+[14:27:11][INFO ](HtmlParser.java:cut_value_in_nextBlock:48)-[2005.09.26],start_pos:8536
+[14:27:11][INFO ](HtmlParser.java:cut_value_in_nextBlock:48)-[권O희],start_pos:8655
+[14:27:11][INFO ](HtmlParser.java:cut_value_in_nextBlock:48)-[2006.01.12],start_pos:8866
+[14:27:11][INFO ](HtmlParser.java:cut_value_in_nextBlock:48)-[2006.04.11],start_pos:9089
+[14:27:11][INFO ](HtmlParser.java:cut_value_in_nextBlock:48)-[2014.03.21],start_pos:9187
+[14:27:11][INFO ](HtmlParser.java:cut_value_in_nextBlock:48)-[],start_pos:9300
+[14:27:11][INFO ](HtmlParser.java:cut_value_in_nextBlock:48)-[2014.03.21 인용],start_pos:9400
+[14:27:11][INFO ](HttpIO.java:httpExcuteSagun:174)-권상,000310,2005,개회,whp.SFWHP01s01Cmd,whp.SFWHP02s01Cmd,043298
+[14:27:11][INFO ](HttpIO.java:httpExcuteSagun:217)-Before httpclient.execute() 
+[14:27:11][INFO ](HttpIO.java:httpExcuteSagun:221)-after httpclient.execute() 
+[14:27:12][INFO ](HtmlParserSagun.java:parseTab2:122)-called
+[14:27:12][INFO ](HtmlParser.java:cut_value_in_nextBlock:48)-[],start_pos:21416
+[14:27:12][INFO ](MainUX.java:updateUx:306)-info : 15/19,value : 78
+[14:27:12][INFO ](OutputExcel.java:write:69)-called
+[14:27:12][INFO ](OutputExcel.java:addDataToSheet:305)-Excel/전체/2005개회043298-08,회생제3단독 (전화:[3회생] 0537576797),20050926,권O희,20060112,20060411,20140321,,20140321 인용,,
+[14:27:12][INFO ](OutputExcel.java:addDataToSheet:305)-Excel/면책/2005개회043298-08,회생제3단독 (전화:[3회생] 0537576797),20050926,권O희,20060112,20060411,20140321,,20140321 인용,,
+[14:27:12][INFO ](HttpIO.java:run:356)-조회성공 : 2005개회043298-08,회생제3단독 (전화:[3회생] 0537576797),20050926,권O희,20060112,20060411,20140321,,20140321 인용,,
+[14:27:12][INFO ](HttpIO.java:httpExcuteSagun:174)-전도,000214,2013,개회,whp.SFWHP01s01Cmd,whp.SFWHP02s01Cmd,056667
+[14:27:12][INFO ](HttpIO.java:httpExcuteSagun:217)-Before httpclient.execute() 
+[14:27:12][INFO ](HttpIO.java:httpExcuteSagun:221)-after httpclient.execute() 
+[14:27:12][INFO ](HtmlParserSagun.java:parseTab1:30)-called
+[14:27:12][INFO ](HtmlParser.java:cut_value_in_nextBlock:48)-[의정부지방법원 2013개회56667</h5>
+    </div>
+    <ul>
+        <li class="paddingtop15">
+            <h4 class="paddingBottom3">기본내용 &nbsp;
+
+            <a href="#" onclick="javascript:goLocation('의정부지법');"><img src="/img/comm/btn_location.gif" alt="청사보기(새창)" /></a>
+
+            </h4>
+            <table class="list_01" summary="기본내용">
+            <caption>기본내용</caption>
+            <colgroup>
+            <col class="head" />
+            <col class="cell01" />
+            <col class="head" />
+            <col class="cell01" />
+            </colgroup>
+            <tr>
+                <th scope="col" class="head">사건번호</th>
+                <td class="cell01">&nbsp;2013개회56667 ],start_pos:8106
+[14:27:12][INFO ](HtmlParser.java:cut_value_in_nextBlock:48)-[제3회생단독 (전화:[3회생] 031-828-0376(인가후 0386))],start_pos:8454
+[14:27:12][INFO ](HtmlParser.java:cut_value_in_nextBlock:48)-[2013.08.16],start_pos:8550
+[14:27:12][INFO ](HtmlParser.java:cut_value_in_nextBlock:48)-[전O영],start_pos:8669
+[14:27:12][INFO ](HtmlParser.java:cut_value_in_nextBlock:48)-[],start_pos:8870
+[14:27:12][INFO ](HtmlParser.java:cut_value_in_nextBlock:48)-[],start_pos:9073
+[14:27:12][INFO ](HtmlParser.java:cut_value_in_nextBlock:48)-[],start_pos:9161
+[14:27:12][INFO ](HtmlParser.java:cut_value_in_nextBlock:48)-[],start_pos:9274
+[14:27:12][INFO ](HtmlParser.java:cut_value_in_nextBlock:48)-[2013.10.17 이송],start_pos:9374
+[14:27:12][INFO ](HttpIO.java:httpExcuteSagun:174)-전도,000214,2013,개회,whp.SFWHP01s01Cmd,whp.SFWHP02s01Cmd,056667
+[14:27:12][INFO ](HttpIO.java:httpExcuteSagun:217)-Before httpclient.execute() 
+[14:27:12][INFO ](HttpIO.java:httpExcuteSagun:221)-after httpclient.execute() 
+[14:27:12][INFO ](HtmlParserSagun.java:parseTab2:122)-called
+[14:27:12][INFO ](HtmlParser.java:cut_value_in_nextBlock:48)-[2013.10.07 도달],start_pos:14961
+[14:27:12][INFO ](MainUX.java:updateUx:306)-info : 16/19,value : 84
+[14:27:12][INFO ](OutputExcel.java:write:69)-called
+[14:27:12][INFO ](OutputExcel.java:addDataToSheet:305)-Excel/전체/2013개회056667-02,제3회생단독 (전화:[3회생] 031-828-0376(인가후 0386)),20130816,전O영,,,,,20131017 이송,20131007 도달,
+[14:27:12][INFO ](OutputExcel.java:addDataToSheet:305)-Excel/이송/2013개회056667-02,제3회생단독 (전화:[3회생] 031-828-0376(인가후 0386)),20130816,전O영,,,,,20131017 이송,20131007 도달,
+[14:27:12][INFO ](HttpIO.java:run:356)-조회성공 : 2013개회056667-02,제3회생단독 (전화:[3회생] 031-828-0376(인가후 0386)),20130816,전O영,,,,,20131017 이송,20131007 도달,
+[14:27:12][INFO ](HttpIO.java:httpExcuteSagun:174)-이종,000420,2013,개회,whp.SFWHP01s01Cmd,whp.SFWHP02s01Cmd,025697
+[14:27:12][INFO ](HttpIO.java:httpExcuteSagun:217)-Before httpclient.execute() 
+[14:27:12][INFO ](HttpIO.java:httpExcuteSagun:221)-after httpclient.execute() 
+[14:27:13][INFO ](HtmlParserSagun.java:parseTab1:30)-called
+[14:27:13][INFO ](HtmlParser.java:cut_value_in_nextBlock:48)-[창원지방법원 2013개회25697</h5>
+    </div>
+    <ul>
+        <li class="paddingtop15">
+            <h4 class="paddingBottom3">기본내용 &nbsp;
+
+            <a href="#" onclick="javascript:goLocation('창원지법');"><img src="/img/comm/btn_location.gif" alt="청사보기(새창)" /></a>
+
+            </h4>
+            <table class="list_01" summary="기본내용">
+            <caption>기본내용</caption>
+            <colgroup>
+            <col class="head" />
+            <col class="cell01" />
+            <col class="head" />
+            <col class="cell01" />
+            </colgroup>
+            <tr>
+                <th scope="col" class="head">사건번호</th>
+                <td class="cell01">&nbsp;2013개회25697 ],start_pos:8104
+[14:27:13][INFO ](HtmlParser.java:cut_value_in_nextBlock:48)-[제1개인회생단독 (전화:[1회생] 239-2048인가후239-2246)],start_pos:8451
+[14:27:13][INFO ](HtmlParser.java:cut_value_in_nextBlock:48)-[2013.07.02],start_pos:8547
+[14:27:13][INFO ](HtmlParser.java:cut_value_in_nextBlock:48)-[이O욱],start_pos:8666
+[14:27:13][INFO ](HtmlParser.java:cut_value_in_nextBlock:48)-[2013.10.02],start_pos:8877
+[14:27:13][INFO ](HtmlParser.java:cut_value_in_nextBlock:48)-[2013.12.18],start_pos:9100
+[14:27:13][INFO ](HtmlParser.java:cut_value_in_nextBlock:48)-[],start_pos:9188
+[14:27:13][INFO ](HtmlParser.java:cut_value_in_nextBlock:48)-[],start_pos:9301
+[14:27:13][INFO ](HtmlParser.java:cut_value_in_nextBlock:48)-[ ],start_pos:9389
+[14:27:13][INFO ](HttpIO.java:httpExcuteSagun:174)-이종,000420,2013,개회,whp.SFWHP01s01Cmd,whp.SFWHP02s01Cmd,025697
+[14:27:13][INFO ](HttpIO.java:httpExcuteSagun:217)-Before httpclient.execute() 
+[14:27:13][INFO ](HttpIO.java:httpExcuteSagun:221)-after httpclient.execute() 
+[14:27:13][INFO ](HtmlParserSagun.java:parseTab2:122)-called
+[14:27:13][INFO ](HtmlParser.java:cut_value_in_nextBlock:48)-[2013.07.10 도달],start_pos:12868
+[14:27:13][INFO ](HtmlParser.java:cut_value_in_nextBlock:48)-[2013.10.08 도달],start_pos:17845
+[14:27:13][INFO ](MainUX.java:updateUx:306)-info : 17/19,value : 89
+[14:27:13][INFO ](OutputExcel.java:write:69)-called
+[14:27:13][INFO ](OutputExcel.java:addDataToSheet:305)-Excel/전체/2013개회025697-11,제1개인회생단독 (전화:[1회생] 239-2048인가후239-2246),20130702,이O욱,20131002,20131218,,, ,20130710 도달,20131008 도달
+[14:27:13][INFO ](OutputExcel.java:addDataToSheet:305)-Excel/인가/2013개회025697-11,제1개인회생단독 (전화:[1회생] 239-2048인가후239-2246),20130702,이O욱,20131002,20131218,,, ,20130710 도달,20131008 도달
+[14:27:13][INFO ](HttpIO.java:run:356)-조회성공 : 2013개회025697-11,제1개인회생단독 (전화:[1회생] 239-2048인가후239-2246),20130702,이O욱,20131002,20131218,,, ,20130710 도달,20131008 도달
+[14:27:13][INFO ](HttpIO.java:httpExcuteSagun:174)-김희,000240,2013,개회,whp.SFWHP01s01Cmd,whp.SFWHP02s01Cmd,025709
+[14:27:13][INFO ](HttpIO.java:httpExcuteSagun:217)-Before httpclient.execute() 
+[14:27:13][INFO ](HttpIO.java:httpExcuteSagun:221)-after httpclient.execute() 
+[14:27:13][INFO ](HtmlParserSagun.java:parseTab1:30)-called
+[14:27:13][INFO ](HtmlParser.java:cut_value_in_nextBlock:48)-[인천지방법원 2013개회25709</h5>
+    </div>
+    <ul>
+        <li class="paddingtop15">
+            <h4 class="paddingBottom3">기본내용 &nbsp;
+
+            <a href="#" onclick="javascript:goLocation('인천지법');"><img src="/img/comm/btn_location.gif" alt="청사보기(새창)" /></a>
+
+            </h4>
+            <table class="list_01" summary="기본내용">
+            <caption>기본내용</caption>
+            <colgroup>
+            <col class="head" />
+            <col class="cell01" />
+            <col class="head" />
+            <col class="cell01" />
+            </colgroup>
+            <tr>
+                <th scope="col" class="head">사건번호</th>
+                <td class="cell01">&nbsp;2013개회25709 ],start_pos:8104
+[14:27:13][INFO ](HtmlParser.java:cut_value_in_nextBlock:48)-[제2회생단독 (전화:[인가전]860-1813[인가후]860-1857)],start_pos:8450
+[14:27:13][INFO ](HtmlParser.java:cut_value_in_nextBlock:48)-[2013.03.12],start_pos:8546
+[14:27:13][INFO ](HtmlParser.java:cut_value_in_nextBlock:48)-[김O정],start_pos:8665
+[14:27:13][INFO ](HtmlParser.java:cut_value_in_nextBlock:48)-[2013.06.21],start_pos:8876
+[14:27:13][INFO ](HtmlParser.java:cut_value_in_nextBlock:48)-[2014.01.02],start_pos:9099
+[14:27:13][INFO ](HtmlParser.java:cut_value_in_nextBlock:48)-[],start_pos:9187
+[14:27:13][INFO ](HtmlParser.java:cut_value_in_nextBlock:48)-[],start_pos:9300
+[14:27:13][INFO ](HtmlParser.java:cut_value_in_nextBlock:48)-[ ],start_pos:9388
+[14:27:13][INFO ](HttpIO.java:httpExcuteSagun:174)-김희,000240,2013,개회,whp.SFWHP01s01Cmd,whp.SFWHP02s01Cmd,025709
+[14:27:13][INFO ](HttpIO.java:httpExcuteSagun:217)-Before httpclient.execute() 
+[14:27:14][INFO ](HttpIO.java:httpExcuteSagun:221)-after httpclient.execute() 
+[14:27:14][INFO ](HtmlParserSagun.java:parseTab2:122)-called
+[14:27:14][INFO ](HtmlParser.java:cut_value_in_nextBlock:48)-[2013.03.19 도달],start_pos:13776
+[14:27:14][INFO ](HtmlParser.java:cut_value_in_nextBlock:48)-[2013.07.25 도달],start_pos:22743
+[14:27:14][INFO ](MainUX.java:updateUx:306)-info : 18/19,value : 94
+[14:27:14][INFO ](OutputExcel.java:write:69)-called
+[14:27:14][INFO ](OutputExcel.java:addDataToSheet:305)-Excel/전체/2013개회025709-03,제2회생단독 (전화:[인가전]860-1813[인가후]860-1857),20130312,김O정,20130621,20140102,,, ,20130319 도달,20130725 도달
+[14:27:14][INFO ](OutputExcel.java:addDataToSheet:305)-Excel/인가/2013개회025709-03,제2회생단독 (전화:[인가전]860-1813[인가후]860-1857),20130312,김O정,20130621,20140102,,, ,20130319 도달,20130725 도달
+[14:27:14][INFO ](HttpIO.java:run:356)-조회성공 : 2013개회025709-03,제2회생단독 (전화:[인가전]860-1813[인가후]860-1857),20130312,김O정,20130621,20140102,,, ,20130319 도달,20130725 도달
+[14:27:14][INFO ](HttpIO.java:httpExcuteSagun:174)-홍길,000210,2013,개회,whp.SFWHP01s01Cmd,whp.SFWHP02s01Cmd,025709
+[14:27:14][INFO ](HttpIO.java:httpExcuteSagun:217)-Before httpclient.execute() 
+[14:27:14][INFO ](HttpIO.java:httpExcuteSagun:221)-after httpclient.execute() 
+[14:27:14][INFO ](HtmlParserSagun.java:parseTab1:30)-called
+[14:27:14][INFO ](HttpIO.java:httpInit:74)-http init start ================= 
+[14:27:14][INFO ](HttpIO.java:httpExcuteSagun:174)-홍길,000210,2013,개회,whp.SFWHP01s01Cmd,whp.SFWHP02s01Cmd,025709
+[14:27:14][INFO ](HttpIO.java:httpExcuteSagun:217)-Before httpclient.execute() 
+[14:27:14][INFO ](HttpIO.java:httpExcuteSagun:221)-after httpclient.execute() 
+[14:27:14][INFO ](HtmlParserSagun.java:parseTab1:30)-called
+[14:27:14][INFO ](HttpIO.java:httpInit:74)-http init start ================= 
+[14:27:14][INFO ](HttpIO.java:httpExcuteSagun:174)-홍길,000210,2013,개회,whp.SFWHP01s01Cmd,whp.SFWHP02s01Cmd,025709
+[14:27:14][INFO ](HttpIO.java:httpExcuteSagun:217)-Before httpclient.execute() 
+[14:27:14][INFO ](HttpIO.java:httpExcuteSagun:221)-after httpclient.execute() 
+[14:27:14][ERROR](HttpIO.java:httpExcuteSagun:233)-Not HTTP 200 : HTTP/1.1 302 Found
+[14:27:14][INFO ](HttpIO.java:httpInit:74)-http init start ================= 
+[14:27:14][INFO ](MainUX.java:updateUx:306)-info : 19/19,value : 100
+[14:27:14][INFO ](HttpIO.java:run:363)-조회실패 : 홍길,1,서울중앙지법,2013개회025709,HTTP/1.1 302 Found
+[14:27:14][INFO ](HttpIO.java:httpClose:97)-called
+[14:27:14][INFO ](OutputExcel.java:close:85)-called
+[14:27:14][INFO ](OutputResult.java:WriteFailList:37)-called
+[14:27:14][INFO ](OutputResult.java:WriteFailList:61)-./output/사건조회실패_0728_142714.csv 생성완료!! 
+[14:27:14][INFO ](HttpIO.java:run:387)-전체 소요시간 - 00:00:11
+[14:27:14][INFO ](HttpIO.java:run:389)-end

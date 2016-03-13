@@ -1,0 +1,184 @@
+[23:13:27][INFO ](MainUX.java:main:318)-start.. : 대법원사이트 자동 조회 시스템 (v1.6 2015-01-09)
+[23:13:27][INFO ](MainUX.java:run:342)-Metal
+[23:13:27][INFO ](MainUX.java:run:342)-Nimbus
+[23:13:27][INFO ](MainUX.java:run:347)-set Nimbus LookAndFeel
+[23:13:27][INFO ](MainUX.java:run:358)-new MyUiClass()
+[23:13:31][INFO ](InputCSV.java:ReadFile:29)-called
+[23:13:32][INFO ](HttpIO.java:run:323)-start
+[23:13:32][INFO ](HttpIO.java:httpInit:74)-http init start ================= 
+[23:13:32][INFO ](OutputCSV.java:open:35)-called
+[23:13:32][INFO ](HttpIO.java:run:340)-./output/경매검색결과_0306_231332.csv 생성
+[23:13:32][INFO ](HttpIO.java:httpExecuteAuction:122)-서울중앙지방법원,2014,1288
+[23:13:32][INFO ](HtmlParserAuction.java:parseTab1:55)-called
+[23:13:33][INFO ](HtmlParser.java:getValueOne4Table:148)-tHead=사건번호
+[23:13:33][INFO ](HtmlParser.java:getValueOne4Table:149)-searchValIdx=0
+[23:13:33][INFO ](HtmlParser.java:getValueOne4Table:148)-tHead=사건명
+[23:13:33][INFO ](HtmlParser.java:getValueOne4Table:149)-searchValIdx=0
+[23:13:33][INFO ](HtmlParser.java:getValueOne4Table:148)-tHead=접수일자
+[23:13:33][INFO ](HtmlParser.java:getValueOne4Table:149)-searchValIdx=0
+[23:13:33][INFO ](HtmlParser.java:getValueOne4Table:148)-tHead=개시결정일자
+[23:13:33][INFO ](HtmlParser.java:getValueOne4Table:149)-searchValIdx=3
+[23:13:33][INFO ](HtmlParser.java:getValueOne4Table:148)-tHead=담당계
+[23:13:33][INFO ](HtmlParser.java:getValueOne4Table:149)-searchValIdx=3
+[23:13:33][INFO ](HtmlParser.java:getValueOne4Table:148)-tHead=청구금액
+[23:13:33][INFO ](HtmlParser.java:getValueOne4Table:149)-searchValIdx=3
+[23:13:33][INFO ](HtmlParser.java:getValueOne4Table:148)-tHead=사건항고/정지여부
+[23:13:33][INFO ](HtmlParser.java:getValueOne4Table:149)-searchValIdx=3
+[23:13:33][INFO ](HtmlParser.java:getValueOne4Table:148)-tHead=종국결과
+[23:13:33][INFO ](HtmlParser.java:getValueOne4Table:149)-searchValIdx=3
+[23:13:33][INFO ](HtmlParser.java:getValueOne4Table:148)-tHead=종국일자
+[23:13:33][INFO ](HtmlParser.java:getValueOne4Table:149)-searchValIdx=3
+[23:13:33][INFO ](HtmlParser.java:getValueOne4Table:154)-####################rtVal=2014.01.13
+[23:13:33][INFO ](HtmlParser.java:getValueOne4Table:148)-tHead=목록번호
+[23:13:33][INFO ](HtmlParser.java:getValueOne4Table:149)-searchValIdx=0
+[23:13:33][INFO ](HtmlParser.java:getValueOne4Table:148)-tHead=소재지
+[23:13:33][INFO ](HtmlParser.java:getValueOne4Table:149)-searchValIdx=0
+[23:13:33][INFO ](HtmlParser.java:getValueOne4Table:148)-tHead=배당요구종기일
+[23:13:33][INFO ](HtmlParser.java:getValueOne4Table:149)-searchValIdx=2
+[23:13:33][INFO ](HtmlParser.java:getValueOne4Table:154)-####################rtVal=2014.04.07
+[23:13:33][INFO ](HttpIO.java:httpExecuteAuction:122)-서울중앙지방법원,2014,1288
+[23:13:33][INFO ](HtmlParserAuction.java:parseTab2:105)-called
+[23:13:33][INFO ](HtmlParser.java:getValueOne4Table:148)-tHead=물건번호
+[23:13:33][INFO ](HtmlParser.java:getValueOne4Table:149)-searchValIdx=0
+[23:13:33][INFO ](HtmlParser.java:getValueOne4Table:148)-tHead=감정평가액
+[23:13:33][INFO ](HtmlParser.java:getValueOne4Table:149)-searchValIdx=1
+[23:13:33][INFO ](HtmlParser.java:getValueOne4Table:148)-tHead=기일
+[23:13:33][INFO ](HtmlParser.java:getValueOne4Table:149)-searchValIdx=1
+[23:13:33][INFO ](HtmlParser.java:getValueOne4Table:148)-tHead=기일종류
+[23:13:33][INFO ](HtmlParser.java:getValueOne4Table:149)-searchValIdx=1
+[23:13:33][INFO ](HtmlParser.java:getValueOne4Table:148)-tHead=기일장소
+[23:13:33][INFO ](HtmlParser.java:getValueOne4Table:149)-searchValIdx=1
+[23:13:33][INFO ](HtmlParser.java:getValueOne4Table:148)-tHead=최저매각가격
+[23:13:33][INFO ](HtmlParser.java:getValueOne4Table:149)-searchValIdx=1
+[23:13:33][INFO ](HtmlParser.java:getValueOne4Table:148)-tHead=기일결과
+[23:13:33][INFO ](HtmlParser.java:getValueOne4Table:149)-searchValIdx=1
+[23:13:33][INFO ](HtmlParser.java:getValueOne4Table:154)-####################rtVal=30,000,000원
+[23:13:33][INFO ](HtmlParser.java:getValList4Table:176)-###########[0]1
+[23:13:33][INFO ](HtmlParser.java:getValList4Table:176)-###########[1]30,000,000원
+[23:13:33][INFO ](HtmlParser.java:getValList4Table:176)-###########[2]2015.10.29(10:00)
+[23:13:33][INFO ](HtmlParser.java:getValList4Table:176)-###########[3]매각기일
+[23:13:33][INFO ](HtmlParser.java:getValList4Table:176)-###########[4]경매법정(별관211호)
+[23:13:33][INFO ](HtmlParser.java:getValList4Table:176)-###########[5]30,000,000원
+[23:13:33][INFO ](HtmlParser.java:getValList4Table:176)-###########[6]유찰
+[23:13:33][INFO ](HtmlParser.java:getValList4Table:176)-###########[0]2015.12.03(10:00)
+[23:13:33][INFO ](HtmlParser.java:getValList4Table:176)-###########[1]매각기일
+[23:13:33][INFO ](HtmlParser.java:getValList4Table:176)-###########[2]경매법정(별관211호)
+[23:13:33][INFO ](HtmlParser.java:getValList4Table:176)-###########[3]24,000,000원
+[23:13:33][INFO ](HtmlParser.java:getValList4Table:176)-###########[4]유찰
+[23:13:33][INFO ](HtmlParser.java:getValList4Table:176)-###########[0]2016.01.07(10:00)
+[23:13:33][INFO ](HtmlParser.java:getValList4Table:176)-###########[1]매각기일
+[23:13:33][INFO ](HtmlParser.java:getValList4Table:176)-###########[2]경매법정(별관211호)
+[23:13:33][INFO ](HtmlParser.java:getValList4Table:176)-###########[3]19,200,000원
+[23:13:33][INFO ](HtmlParser.java:getValList4Table:176)-###########[4]유찰
+[23:13:33][INFO ](HtmlParser.java:getValList4Table:176)-###########[0]2016.02.11(10:00)
+[23:13:33][INFO ](HtmlParser.java:getValList4Table:176)-###########[1]매각기일
+[23:13:33][INFO ](HtmlParser.java:getValList4Table:176)-###########[2]경매법정(별관211호)
+[23:13:33][INFO ](HtmlParser.java:getValList4Table:176)-###########[3]15,360,000원
+[23:13:33][INFO ](HtmlParser.java:getValList4Table:176)-###########[4]유찰
+[23:13:33][INFO ](HtmlParser.java:getValList4Table:176)-###########[0]2016.03.17(10:00)
+[23:13:33][INFO ](HtmlParser.java:getValList4Table:176)-###########[1]매각기일
+[23:13:33][INFO ](HtmlParser.java:getValList4Table:176)-###########[2]경매법정(별관211호)
+[23:13:33][INFO ](HtmlParser.java:getValList4Table:176)-###########[3]12,288,000원
+[23:13:33][INFO ](HtmlParser.java:getValList4Table:176)-###########[4]
+[23:13:33][INFO ](HtmlParser.java:getValList4Table:176)-###########[0]2016.03.24(14:00)
+[23:13:33][INFO ](HtmlParser.java:getValList4Table:176)-###########[1]매각결정기일
+[23:13:33][INFO ](HtmlParser.java:getValList4Table:176)-###########[2]배당법정(제4별관 3층 7호)
+[23:13:33][INFO ](HtmlParser.java:getValList4Table:176)-###########[3]
+[23:13:33][INFO ](HtmlParser.java:getValList4Table:176)-###########[4]
+[23:13:33][INFO ](HttpIO.java:httpExecuteAuction:122)-서울중앙지방법원,2014,1288
+[23:13:33][INFO ](HtmlParserAuction.java:parseTab3:286)-called
+[23:13:33][INFO ](HtmlParser.java:cut_value_in_nextBlock:53)-[2014.01.16],start_pos:38309
+[23:13:33][INFO ](HtmlParser.java:cut_value_in_nextBlock:53)-[
+
+		등기소 서울중앙지방법원 등기국 등기필증 제출
+        ],start_pos:38368
+[23:13:33][INFO ](HtmlParser.java:cut_value_in_nextBlock:53)-[2014.01.21],start_pos:38473
+[23:13:33][INFO ](HtmlParser.java:cut_value_in_nextBlock:53)-[
+
+		감정인 석률감정평가사사무소 감정평가의뢰에 대한 회신 제출
+        ],start_pos:38539
+[23:13:33][INFO ](HtmlParser.java:cut_value_in_nextBlock:53)-[2014.01.27],start_pos:38644
+[23:13:33][INFO ](HtmlParser.java:cut_value_in_nextBlock:53)-[
+
+		기타 서울중앙지방법원 집행관실 부동산현황조사보고서 제출
+        ],start_pos:38709
+[23:13:33][INFO ](HtmlParser.java:cut_value_in_nextBlock:53)-[2014.01.28],start_pos:38814
+[23:13:33][INFO ](HtmlParser.java:cut_value_in_nextBlock:53)-[
+
+		채권자 주식회사한국외환은행 권리신고및배당요구신청 제출
+        ],start_pos:38878
+[23:13:33][INFO ](HtmlParser.java:cut_value_in_nextBlock:53)-[2014.02.06],start_pos:38983
+[23:13:33][INFO ](HtmlParser.java:cut_value_in_nextBlock:53)-[
+
+		근저당권자 신용보증기금 채권계산서 제출
+        ],start_pos:39039
+[23:13:33][INFO ](HtmlParser.java:cut_value_in_nextBlock:53)-[2014.02.20],start_pos:39144
+[23:13:33][INFO ](HtmlParser.java:cut_value_in_nextBlock:53)-[
+
+		압류권자 안양세무서 교부청구 제출
+        ],start_pos:39197
+[23:13:33][INFO ](HtmlParser.java:cut_value_in_nextBlock:53)-[2014.03.21],start_pos:39302
+[23:13:33][INFO ](HtmlParser.java:cut_value_in_nextBlock:53)-[
+
+		교부권자 군포시장 교부청구 제출
+        ],start_pos:39354
+[23:13:33][INFO ](HtmlParser.java:cut_value_in_nextBlock:53)-[2014.10.02],start_pos:39459
+[23:13:33][INFO ](HtmlParser.java:cut_value_in_nextBlock:53)-[
+
+		기타 석률 감정평가사사무소 감정서 보완 회보 제출
+        ],start_pos:39521
+[23:13:33][INFO ](HtmlParser.java:cut_value_in_nextBlock:53)-[2014.10.10],start_pos:39626
+[23:13:33][INFO ](HtmlParser.java:cut_value_in_nextBlock:53)-[
+
+		기타 서울중앙지방법원 집행관실 현황조사서 제출
+        ],start_pos:39686
+[23:13:33][INFO ](HtmlParser.java:cut_value_in_nextBlock:53)-[2015.04.14],start_pos:39791
+[23:13:33][INFO ](HtmlParser.java:cut_value_in_nextBlock:53)-[
+
+		채권자 주식회사한국외환은행 보정연기서 제출
+        ],start_pos:39849
+[23:13:33][INFO ](HtmlParser.java:cut_value_in_nextBlock:53)-[2015.05.22],start_pos:39954
+[23:13:33][INFO ](HtmlParser.java:cut_value_in_nextBlock:53)-[
+
+		채권자 주식회사한국외환은행 열람및복사신청 제출
+        ],start_pos:40014
+[23:13:33][INFO ](HtmlParser.java:cut_value_in_nextBlock:53)-[2015.05.22],start_pos:40119
+[23:13:33][INFO ](HtmlParser.java:cut_value_in_nextBlock:53)-[
+
+		채권자 주식회사한국외환은행 보정연기서 제출
+        ],start_pos:40177
+[23:13:33][INFO ](HtmlParser.java:cut_value_in_nextBlock:53)-[2015.05.27],start_pos:40282
+[23:13:33][INFO ](HtmlParser.java:cut_value_in_nextBlock:53)-[
+
+		채권자 주식회사한국외환은행 보정서 제출
+        ],start_pos:40338
+[23:13:33][INFO ](HtmlParser.java:cut_value_in_nextBlock:53)-[2015.05.29],start_pos:40443
+[23:13:33][INFO ](HtmlParser.java:cut_value_in_nextBlock:53)-[
+
+		채권자 주식회사한국외환은행 보정서 제출
+        ],start_pos:40499
+[23:13:33][INFO ](HtmlParser.java:cut_value_in_nextBlock:53)-[2015.10.30],start_pos:40604
+[23:13:33][INFO ](HtmlParser.java:cut_value_in_nextBlock:53)-[
+
+		압류권자 안양세무서 교부청구서 제출
+        ],start_pos:40658
+[23:13:33][INFO ](HtmlParser.java:cut_value_in_nextBlock:53)-[송달일</th>
+        <th width="64%" class="txtcenter">송달내역</th>
+        <th width="20%" class="txtcenter">송달결과</th>
+      </tr>
+
+      <tr>
+        <td class="txtcenter">2014.01.14],start_pos:41112
+[23:13:33][INFO ](HtmlParser.java:cut_value_in_nextBlock:53)-[
+
+		감정인 김현욱 평가명령 발송
+		],start_pos:41156
+[23:13:33][INFO ](MainUX.java:updateUx:308)-info : 1/1,value : 100
+[23:13:33][INFO ](HttpIO.java:endTimeCheck:284)- *************  ************* ************* 
+[23:13:33][INFO ](HttpIO.java:endTimeCheck:285)- *************  diff : 478
+[23:13:33][INFO ](OutputCSV.java:write:71)-called
+[23:13:33][INFO ](HttpIO.java:run:393)-조회성공 : 201403A00001,2014타경1288,20140113,20140407,30000000,,,,,5,1,20151029,30000000,1,20151203,24000000,1,20160107,19200000,1,20160211,15360000,1,20160317,12288000,,20140128 채권자 주식회사한국외환은행 권리신고및배당요구신청 제출,
+[23:13:33][INFO ](HttpIO.java:httpClose:97)-called
+[23:13:33][INFO ](OutputCSV.java:close:84)-called
+[23:13:33][INFO ](HttpIO.java:run:424)-전체 소요시간 - 00:00:00
+[23:13:33][INFO ](HttpIO.java:run:426)-end

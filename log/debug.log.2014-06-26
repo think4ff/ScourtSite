@@ -1,0 +1,5 @@
+[16:18:52][INFO ](MainUX.java:main:289)-start.. : 대법원사이트 자동 조회 시스템 (v0.9 0625)
+[16:18:53][INFO ](MainUX.java:run:309)-Metal
+[16:18:53][INFO ](MainUX.java:run:309)-Nimbus
+[16:18:54][INFO ](MainUX.java:run:314)-set Nimbus LookAndFeel
+[16:18:54][INFO ](MainUX.java:run:329)-new MyUiClass()
