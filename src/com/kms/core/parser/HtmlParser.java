@@ -157,9 +157,9 @@ public class HtmlParser {
 	}
 	
 	
-	protected static ArrayList<AuctionTab2GiIlNaeYeok> getValList4Table(String html, int tableIndex) {
+	protected static ArrayList<AuctionTab2GiIlNaeYeok> getValList4GiIlNaeYeok(String html, int tableIndex) {
 		
-		ArrayList <AuctionTab2GiIlNaeYeok> rtKiIlList = new ArrayList<AuctionTab2GiIlNaeYeok>() ;
+		ArrayList <AuctionTab2GiIlNaeYeok> rtGiIlList = new ArrayList<AuctionTab2GiIlNaeYeok>() ;
 		AuctionTab2GiIlNaeYeok tmpGiIl = null;
 		
 		Document doc = Jsoup.parse(html);
@@ -207,9 +207,9 @@ public class HtmlParser {
 //    		logger.info("#####################################");
 //    		logger.info(tmpGiIl);
 //    		logger.info("#####################################");
-            rtKiIlList.add(tmpGiIl);
+            rtGiIlList.add(tmpGiIl);
          }
 		
-		return rtKiIlList;
+		return rtGiIlList;
 	}
 }

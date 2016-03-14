@@ -116,7 +116,7 @@ public class HtmlParserAuction extends HtmlParser {
 		//XXX:테스트
 		result.IlChaBeobSaGa = getValueOne4Table(html, 0,"감정평가액").replaceAll("\\,|원", "");
 		
-		ArrayList <AuctionTab2GiIlNaeYeok> KiIL_list = new ArrayList<AuctionTab2GiIlNaeYeok> () ;
+		ArrayList <AuctionTab2GiIlNaeYeok> GiIlList = new ArrayList<AuctionTab2GiIlNaeYeok> () ;
 
 		/*
 		// 기일 테이블 Parsing 하여 KiIl List에 담는다
@@ -156,10 +156,10 @@ public class HtmlParserAuction extends HtmlParser {
 		*/
 		
 		//XXX:테스트
-		KiIL_list = getValList4Table(html, 0);
+		GiIlList = getValList4GiIlNaeYeok(html, 0);
 		
 		// KiIl list를 분석하여 result를 생성한다.
-		for(int i=0; i < KiIL_list.size(); i++ )
+		for(int i=0; i < GiIlList.size(); i++ )
 		{
 			//System.out.println( KiIL_list.get(i).toString() );
 			
@@ -191,52 +191,52 @@ public class HtmlParserAuction extends HtmlParser {
 			// bm408	배당기일       배당기일
 			//------------------------------------------------------
 
-			if( KiIL_list.get(i).KiIlCategory.equals("매각기일") )
+			if( GiIlList.get(i).KiIlCategory.equals("매각기일") )
 			{
-				result.YipChalDateList.add( KiIL_list.get(i).KiIlDate );
-				result.YipChalKeumAkList.add( KiIL_list.get(i).MinMaeKakPrice );
+				result.YipChalDateList.add( GiIlList.get(i).KiIlDate );
+				result.YipChalKeumAkList.add( GiIlList.get(i).MinMaeKakPrice );
 				
-				if( KiIL_list.get(i).KiIlResult.equals("유찰"))
+				if( GiIlList.get(i).KiIlResult.equals("유찰"))
 				{
 					result.YipChalResultList.add( "1" );
 				}
-     			else if( KiIL_list.get(i).KiIlResult.equals("매각"))
+     			else if( GiIlList.get(i).KiIlResult.equals("매각"))
 	    		{
 		    		result.YipChalResultList.add( "2" );
 			    }
-				else if( KiIL_list.get(i).KiIlResult.equals("항고"))
+				else if( GiIlList.get(i).KiIlResult.equals("항고"))
 				{
 					result.YipChalResultList.add( "3" );
 				}
-				else if( KiIL_list.get(i).KiIlResult.equals("재입찰"))
+				else if( GiIlList.get(i).KiIlResult.equals("재입찰"))
 				{
 					result.YipChalResultList.add( "4" );
 				}
-				else if( KiIL_list.get(i).KiIlResult.equals("변경"))
+				else if( GiIlList.get(i).KiIlResult.equals("변경"))
 				{
 					result.YipChalResultList.add( "5" );
 				}
-     			else if( KiIL_list.get(i).KiIlResult.equals("최고가매각허가결정"))
+     			else if( GiIlList.get(i).KiIlResult.equals("최고가매각허가결정"))
 				{
 					result.YipChalResultList.add( "6" );
 				}
-				else if( KiIL_list.get(i).KiIlResult.equals("최고가매각허가취소결정"))
+				else if( GiIlList.get(i).KiIlResult.equals("최고가매각허가취소결정"))
 				{
 					result.YipChalResultList.add( "7" );
 				}
-				else if( KiIL_list.get(i).KiIlResult.equals("배당기일"))
+				else if( GiIlList.get(i).KiIlResult.equals("배당기일"))
 				{
 					result.YipChalResultList.add( "8" );
 				}				
 				// 공백으로 처리
-				else if( KiIL_list.get(i).KiIlResult.equals("진행") || KiIL_list.get(i).KiIlResult.equals("") ) 
+				else if( GiIlList.get(i).KiIlResult.equals("진행") || GiIlList.get(i).KiIlResult.equals("") ) 
 				{
 					result.YipChalResultList.add( "" );
 				}
 				else  // 그외 결과일때는 예외상황이며 공백으로 처리함. 
 				{
 					result.YipChalResultList.add( "" );
-					logger.error("다음 입찰결과를 공백으로 처리합니다. --> " + KiIL_list.get(i).KiIlResult );
+					logger.error("다음 입찰결과를 공백으로 처리합니다. --> " + GiIlList.get(i).KiIlResult );
 				}
 			}	
 			
@@ -244,25 +244,25 @@ public class HtmlParserAuction extends HtmlParser {
 			//	2. 기일결과가 매각일때 
 			//	   - 기일(대법원) ->낙찰일자(LPAS)
 			//	   - 매각금액(대법원) ->낙찰가(LPAS)
-			if( KiIL_list.get(i).KiIlResult.equals("매각"))
+			if( GiIlList.get(i).KiIlResult.equals("매각"))
 			{
-				result.NakChalDate = KiIL_list.get(i).KiIlDate;
-				result.NakCahlKa = KiIL_list.get(i).KiIlResult_price;					
+				result.NakChalDate = GiIlList.get(i).KiIlDate;
+				result.NakCahlKa = GiIlList.get(i).KiIlResult_price;					
 			}	
 			
 			//------------------------------------------------------------------
 			// 	3. 기일결과가 납부일때
 			//	   - 납부일(대법원) -> 대금납부기일(LPAS)
 			//  			
-			if( KiIL_list.get(i).KiIlResult.equals("납부"))
+			if( GiIlList.get(i).KiIlResult.equals("납부"))
 			{
-				result.DaeGeumNapBuDate = KiIL_list.get(i).KiIlResult_date;
+				result.DaeGeumNapBuDate = GiIlList.get(i).KiIlResult_date;
 			}
 
 			// 3. 기일종류가 "대금지급기한" 일때	   - 기일(대법원) ->대금지급기한(LPAS)
-			if( KiIL_list.get(i).KiIlCategory.equals("대금지급기한") )
+			if( GiIlList.get(i).KiIlCategory.equals("대금지급기한") )
 			{
-                result.DaeGeumGiHan = KiIL_list.get(i).KiIlDate;
+                result.DaeGeumGiHan = GiIlList.get(i).KiIlDate;
 			}
 
 		}		

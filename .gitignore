@@ -6,5 +6,6 @@
 
 *.zip
 #folder ignore
+data/
 output/
 
